@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+  xmlns:cdmc="https://doi.org/10.6069/uwlib.55.d.1#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:void="http://rdfs.org/ns/void#"
+  xmlns:ldproc="https://doi.org/10.6069/uwlib.55.b.2#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdfs:label xml:lang="en">Order Number</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdfs:comment xml:lang="en">Number used to order a copy of a digital resource from the
+      University of Washington Libraries.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
+    <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
+    <rdfs:label xml:lang="en">Negative Number</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
+    <rdfs:comment xml:lang="en">Reproduction number assigned to an image for purposes of
+      duplication. It is a unique number in University of Washington Libraries Special
+      Collections.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber">
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber">
+    <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber">
+    <rdfs:label xml:lang="en">Photographers Reference Number</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber">
+    <rdfs:comment xml:lang="en">University of Washington Libraries' reference number for a
+      photographer.</rdfs:comment>
+  </rdf:Description>
+  <!-- BEGIN VoID TRIPLES -->
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:title xml:lang="en">University of Washington Libraries rdfs:Class Definitions</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:description xml:lang="en">RDF dataset describing classes used in University of Washington Libraries RDF data.</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:hasFormat
+      rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-1.nt"
+    />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:hasFormat
+      rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-1.ttl"
+    />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <dct:hasFormat
+      rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-1.rdf"
+    />
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <void:classPartition rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
+    <owl:versionInfo>1-0-1</owl:versionInfo>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:uwpv="https://doi.org/10.6069/uwlib.55.b.1#" xmlns:voc="https://www.lib.washington.edu/static/public/cams/data/vocabularies/" xmlns:void="http://rdfs.org/ns/void#">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1#Platform">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <dct:title>Linked Data Platform Vocabulary</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.nt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
+    <owl:versionInfo>1-0-0</owl:versionInfo>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#" xmlns:lr="https://www.lib.washington.edu/static/public/cams/data/localResources/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:uwp="https://doi.org/10.6069/uwlib.55.d.2#" xmlns:uwpv="https://doi.org/10.6069/uwlib.55.b.1#" xmlns:void="http://rdfs.org/ns/void#">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
+    <rdfs:label>SPARQL</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdfs:label>Fuseki</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
+    <rdfs:label>Microsoft Excel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
+    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
+    <rdfs:label>Open Refine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
+    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:title>Linked Data Platforms</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:description>Platforms (or applications) used to process RDF datasets.</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.nt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <void:classPartition rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
+    <owl:versionInfo>1-0-0</owl:versionInfo>
+  </rdf:Description>
+</rdf:RDF>
