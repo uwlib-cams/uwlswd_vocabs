@@ -832,6 +832,9 @@
     <skos:altLabel xml:lang="en">Latino newspapers</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl044">
+    <skos:altLabel xml:lang="en">Latinx newspapers</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl044">
     <skos:narrower rdf:resource="https://doi.org/10.6069/uwlib.55.d.5#ngl060"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl044">
@@ -1124,6 +1127,9 @@
     <skos:altLabel xml:lang="en">Military post newspapers</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl062">
+    <skos:broader rdf:resource="https://doi.org/10.6069/uwlib.55.d.5#ngl108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl062">
     <skos:prefLabel xml:lang="en">Military base newspapers</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl063">
@@ -1347,6 +1353,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl076">
     <rdf:type rdf:resource="http://www.wikidata.org/entity/Q106632462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl076">
+    <skos:altLabel>Retiree newspapers</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl076">
     <skos:prefLabel xml:lang="en">Retirees' newspapers</skos:prefLabel>
@@ -1665,6 +1674,12 @@
     <skos:altLabel xml:lang="en">Union newspapers</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl094">
+    <skos:altLabel xml:lang="en">Unionist newspapers</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl094">
+    <skos:altLabel xml:lang="en">Trade unionist newspapers</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl094">
     <skos:broader rdf:resource="https://doi.org/10.6069/uwlib.55.d.5#ngl051"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl094">
@@ -1734,6 +1749,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl098">
     <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q106687653"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl098">
+    <skos:altLabel xml:lang="en">War veterans' newspapers</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl098">
     <skos:prefLabel xml:lang="en">Veterans' newspapers</skos:prefLabel>
@@ -1914,6 +1932,27 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl106">
     <skos:scopeNote xml:lang="en">Use for newspapers about multicultural issues, racial equality, or diversity. Also use for newspapers covering issues of more than one ethnic group.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl107">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl107">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q106632462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl107">
+    <skos:prefLabel xml:lang="en">Conservative newspapers</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl108">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl108">
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q106632462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl108">
+    <skos:narrower rdf:resource="https://doi.org/10.6069/uwlib.55.d.5#ngl062"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl108">
+    <skos:prefLabel xml:lang="en">Military newspapers</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5#ngl110">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

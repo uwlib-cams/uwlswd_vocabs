@@ -309,6 +309,7 @@ ngl:ngl044
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
     skos:closeMatch <http://www.wikidata.org/entity/Q106664402> ;
     skos:altLabel "Latino newspapers"@en ;
+    skos:altLabel "Latinx newspapers"@en ;
     skos:narrower ngl:ngl060 ;
     skos:prefLabel "Hispanic American newspapers"@en ;
     skos:scopeNote """Use for newspapers by, for, and about U.S. citizens of Latin
@@ -418,6 +419,7 @@ ngl:ngl061
 ngl:ngl062
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
     skos:altLabel "Military post newspapers"@en ;
+    skos:broader ngl:ngl108 ;
     skos:prefLabel "Military base newspapers"@en .
 
 ngl:ngl063
@@ -507,6 +509,7 @@ ngl:ngl075
 
 ngl:ngl076
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
+    skos:altLabel "Retiree newspapers" ;
     skos:prefLabel "Retirees' newspapers"@en .
 
 ngl:ngl077
@@ -624,6 +627,8 @@ ngl:ngl094
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
     skos:closeMatch <http://www.wikidata.org/entity/Q106687639> ;
     skos:altLabel "Union newspapers"@en ;
+    skos:altLabel "Unionist newspapers"@en ;
+    skos:altLabel "Trade unionist newspapers"@en ;
     skos:broader ngl:ngl051 ;
     skos:prefLabel "Trade-union newspapers"@en ;
     skos:related ngl:ngl086 .
@@ -651,6 +656,7 @@ ngl:ngl097
 ngl:ngl098
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
     skos:closeMatch <http://www.wikidata.org/entity/Q106687653> ;
+    skos:altLabel "War veterans' newspapers"@en ;
     skos:prefLabel "Veterans' newspapers"@en .
 
 ngl:ngl099
@@ -713,7 +719,16 @@ ngl:ngl106
     skos:prefLabel "Multicultural newspapers"@en ;
     skos:scopeNote """Use for newspapers about multicultural issues, racial equality, or diversity. Also use for newspapers covering issues of more than one ethnic group."""@en .
 
-# no ngl107-ngl109
+ngl:ngl107
+    a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
+    skos:prefLabel "Conservative newspapers"@en .
+
+ngl:ngl108
+    a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
+    skos:narrower ngl:ngl062 ;
+    skos:prefLabel "Military newspapers"@en .
+
+# no ngl109
 
 ngl:ngl110
     a skos:Concept, <http://www.wikidata.org/entity/Q106632462> ;
