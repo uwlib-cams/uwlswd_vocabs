@@ -2508,7 +2508,7 @@
         <marc:controlfield tag="001">ngl062</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
         <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
-        <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
+       <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
             <marc:subfield code="b">eng</marc:subfield>
@@ -2526,6 +2526,11 @@
         </marc:datafield>
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Military post newspapers</marc:subfield>
+        </marc:datafield>      
+        <marc:datafield tag="555" ind1=" " ind2=" ">
+            <marc:subfield code="a">Military newspapers</marc:subfield>
+            <marc:subfield code="w">g</marc:subfield>
+            <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl108</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3680,6 +3685,28 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
+        <marc:leader>00349nz  a2200109n  4500</marc:leader>
+        <marc:controlfield tag="001">ngl107</marc:controlfield>
+        <marc:controlfield tag="003">WaU</marc:controlfield>
+        <marc:controlfield tag="005">20210611195622.3</marc:controlfield>
+        <marc:controlfield tag="008">210611i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">WaSeUMN</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">OCoLC</marc:subfield>
+            <marc:subfield code="d">WaU</marc:subfield>
+            <marc:subfield code="f">ngl</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="075" ind1=" " ind2=" ">
+            <marc:subfield code="a">Concept</marc:subfield>
+            <marc:subfield code="1">http://www.w3.org/2004/02/skos/core#Concept</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q106632462</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="155" ind1=" " ind2=" ">
+            <marc:subfield code="a">Conservative newspapers</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
         <marc:leader>00497nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl108</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
@@ -3703,7 +3730,7 @@
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">Military base newspapers</marc:subfield>
             <marc:subfield code="w">h</marc:subfield>
-            <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl045</marc:subfield>
+            <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl062</marc:subfield>
         </marc:datafield>
         <!--<marc:datafield tag="755" ind1=" " ind2="4">
             <marc:subfield code="a">medical newspaper</marc:subfield>
