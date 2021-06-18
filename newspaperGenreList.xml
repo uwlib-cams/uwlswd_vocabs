@@ -29,10 +29,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00596cz  a2200145n  4500</marc:leader>
+        <marc:leader>00676cz  a2200157n  4500</marc:leader>
         <marc:controlfield tag="001">ngl083</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -60,12 +60,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers of annual state agricultural exhibitions.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">state fair newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182208</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00613cz  a2200133n  4500</marc:leader>
+        <marc:leader>00697cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl084</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -88,6 +92,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers advocating the strict interpretation of the Constitution, by which all rights not specifically delegated to the federal government belong to the states.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">states' rights newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107208916</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -129,10 +137,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00485cz  a2200133n  4500</marc:leader>
+        <marc:leader>00561cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl086</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -155,6 +163,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers associated with labor strikes.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">strike newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107208914</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -237,10 +249,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00340cz  a2200109n  4500</marc:leader>
+        <marc:leader>00421cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl089</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -256,6 +268,10 @@
         </marc:datafield>
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Summer camp newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">summer camp newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107258494</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -328,10 +344,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00397cz  a2200121n  4500</marc:leader>
+        <marc:leader>00477cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl092</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -350,6 +366,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers advocating tax reform.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">tax reform newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107258644</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -390,10 +410,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00614cz  a2200157n  4500</marc:leader>
+        <marc:leader>00692cz  a2200181n  4500</marc:leader>
         <marc:controlfield tag="001">ngl094</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -511,10 +531,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00419cz  a2200121n  4500</marc:leader>
+        <marc:leader>00501cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl096</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -535,12 +555,16 @@
             <marc:subfield code="a">Labor newspapers</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl051</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">unemployment newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107258714</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00485cz  a2200121n  4500</marc:leader>
+        <marc:leader>00562cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl097</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -560,12 +584,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers associated with he expression of visionary or ideal schemes for the perfection of social or political conditions.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">utopian newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107258724</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00417cz  a2200121n  4500</marc:leader>
+        <marc:leader>00458cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl098</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -627,7 +655,7 @@
         <marc:leader>00803cz  a2200193n  4500</marc:leader>
         <marc:controlfield tag="001">ngl001</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -643,7 +671,7 @@
         </marc:datafield>
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">African American newspapers</marc:subfield>
-        </marc:datafield>     
+        </marc:datafield>
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Afro-American newspapers</marc:subfield>
         </marc:datafield>
@@ -666,16 +694,16 @@
             <marc:subfield code="2">fast</marc:subfield>
             <marc:subfield code="0">http://id.worldcat.org/fast/799278</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="750" ind1=" " ind2="4">
+        <marc:datafield tag="755" ind1=" " ind2="4">
             <marc:subfield code="a">African American newspaper</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q4689686</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00762cz  a2200145n  4500</marc:leader>
+        <marc:leader>00855cz  a2200157n  4500</marc:leader>
         <marc:controlfield tag="001">ngl002</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -702,6 +730,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers which report on competitive exhibitions of farm products, livestock, baked goods, etc. with prizes for excellence, often combined with carnival-like entertainment, and held annually by states, counties, etc.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">agricultural exhibition newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170506</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -737,10 +769,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00727cz  a2200169n  4500</marc:leader>
+        <marc:leader>00810cz  a2200181n  4500</marc:leader>
         <marc:controlfield tag="001">ngl004</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">060426i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -777,12 +809,16 @@
             <marc:subfield code="2">fast</marc:subfield>
             <marc:subfield code="0">http://id.worldcat.org/fast/1748651</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Alaska Native newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170524</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00562cz  a2200133n  4500</marc:leader>
+        <marc:leader>00639cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl005</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -805,6 +841,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers written, published and printed by those engaged in these pursuits as a pastime rather than as a profession.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">amateur newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170655</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -837,7 +877,7 @@
         <marc:leader>00620cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl007</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -863,15 +903,15 @@
             <marc:subfield code="i">Use for newspapers which regularly feature articles which speak out against Catholicism.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="755" ind1=" " ind2="4">
-            <marc:subfield code="a">Anti-Catholic newspaper</marc:subfield>
+            <marc:subfield code="a">anti-Catholic newspaper</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q106651148</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00341cz  a2200109n  4500</marc:leader>
+        <marc:leader>00423cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl008</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -888,12 +928,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Anti-Chinese newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">anti-Chinese newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107171978</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00506cz  a2200133n  4500</marc:leader>
+        <marc:leader>00509cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl009</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -920,10 +964,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00341cz  a2200109n  4500</marc:leader>
+        <marc:leader>00423cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl010</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -940,8 +984,12 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Anti-fascist newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">anti-fascist newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107171980</marc:subfield>
+        </marc:datafield>
     </marc:record>
-    <marc:record>  
+    <marc:record>
         <marc:leader>00423cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl011</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
@@ -1002,10 +1050,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00597cz  a2200157n  4500</marc:leader>
+        <marc:leader>00681cz  a2200169n  4500</marc:leader>
         <marc:controlfield tag="001">ngl013</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1036,6 +1084,10 @@
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">Atheist newspapers</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl017</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">anti-religious newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107171982</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -1170,10 +1222,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00536cz  a2200133n  4500</marc:leader>
+        <marc:leader>00614cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl019</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1195,6 +1247,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published during a national or state election year which are party affiliated and usually limited to a calendar year.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">campaign newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182456</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -1231,10 +1287,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00356cz  a2200109n  4500</marc:leader>
+        <marc:leader>00453cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl024</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1251,12 +1307,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Civilian Conservation Corps newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Civilian Conservation Corps newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183138</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00341cz  a2200109n  4500</marc:leader>
+        <marc:leader>00422cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl022</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1273,12 +1333,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Civil rights newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">civl rights newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183119</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00423cz  a2200121n  4500</marc:leader>
+        <marc:leader>00506cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl023</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1299,6 +1363,10 @@
             <marc:subfield code="a">Labor newspapers</marc:subfield>
             <marc:subfield code="w">g</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl051</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">civil service newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183126</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -1427,10 +1495,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00450cz  a2200121n  4500</marc:leader>
+        <marc:leader>00532cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl028</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1450,12 +1518,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published for towns where one main company employs most of the community.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">company town newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181559</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00456cz  a2200121n  4500</marc:leader>
+        <marc:leader>00536cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl029</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1475,12 +1547,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published usually on a daily basis during annual meetings of major organizations.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">conference newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183145</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00349cz  a2200109n  4500</marc:leader>
+        <marc:leader>00439cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl030</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1497,12 +1573,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Consumer cooperative newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">consumer cooperative newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236569</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00519cz  a2200133n  4500</marc:leader>
+        <marc:leader>00600cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl031</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1526,6 +1606,10 @@
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">State fair newspapers</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl083</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">county fair newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182201</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -1558,10 +1642,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00342cz  a2200109n  4500</marc:leader>
+        <marc:leader>00425cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl033</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1578,12 +1662,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Environmental newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">environmental newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182194</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00856cz  a2200121n  4500</marc:leader>
+        <marc:leader>00813cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl100</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216|||b|znn|bbn|||||||||||||ann|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1639,10 +1727,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00419cz  a2200121n  4500</marc:leader>
+        <marc:leader>00501cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl035</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">060426i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1664,12 +1752,16 @@
             <marc:subfield code="w">g</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl046</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">fisheries newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236776</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00481cz  a2200121n  4500</marc:leader>
+        <marc:leader>00438cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl101</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216|||b|znn|bbn|||||||||||||ann|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1728,10 +1820,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00477cz  a2200133n  4500</marc:leader>
+        <marc:leader>00563cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl037</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1754,12 +1846,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers produced under the aegis of the Masons, Odd Fellows, et al.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">friendly society newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236849</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00799cz  a2200205n  4500</marc:leader>
+        <marc:leader>00878cz  a2200217n  4500</marc:leader>
         <marc:controlfield tag="001">ngl038</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1799,16 +1895,21 @@
             <marc:subfield code="a">Gay newspapers</marc:subfield>
             <marc:subfield code="0">http://id.loc.gov/authorities/subjects/sh94008545</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="750" ind1=" " ind2="7">
+            <marc:subfield code="a">Gay newspapers</marc:subfield>
+            <marc:subfield code="2">homoit</marc:subfield>
+            <marc:subfield code="0">http://homosaurus.org/v2/gayNewspapers</marc:subfield>
+        </marc:datafield>
         <marc:datafield tag="755" ind1=" " ind2="4">
             <marc:subfield code="a">gay newspaper</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q106634743</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00825cz  a2200205n  4500</marc:leader>
+        <marc:leader>01001cz  a2200229n  4500</marc:leader>
         <marc:controlfield tag="001">ngl039</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1828,10 +1929,10 @@
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Official gazettes</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="455" ind1="b" ind2="b">
+        <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Legal gazettes</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="455" ind1="b" ind2="b">
+        <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Government gazettes</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="555" ind1=" " ind2=" ">
@@ -1850,16 +1951,26 @@
             <marc:subfield code="2">fast</marc:subfield>
             <marc:subfield code="0">http://id.worldcat.org/fast/939356</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="7">
+            <marc:subfield code="a">Official gazettes</marc:subfield>
+            <marc:subfield code="2">lcgft</marc:subfield>
+            <marc:subfield code="0">http://id.loc.gov/authorities/genreForms/gf2011026427</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="7">
+            <marc:subfield code="a">Official gazettes</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">http://id.worldcat.org/fast/1774292</marc:subfield>
+        </marc:datafield>
         <marc:datafield tag="755" ind1=" " ind2="4">
             <marc:subfield code="a">official journal</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q2065227</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00418cz  a2200121n  4500</marc:leader>
+        <marc:leader>00498cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl040</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1879,12 +1990,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published in towns which are now abandoned.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">ghost town newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236883</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00458cz  a2200133n  4500</marc:leader>
+        <marc:leader>00536cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl042</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -1906,6 +2021,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published for and about the disabled.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">disabled newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236603</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -1949,10 +2068,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00837cz  a2200181n  4500</marc:leader>
+        <marc:leader>00871cz  a2200193n  4500</marc:leader>
         <marc:controlfield tag="001">ngl044</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2029,10 +2148,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00897cz  a2200181n  4500</marc:leader>
+        <marc:leader>00975cz  a2200193n  4500</marc:leader>
         <marc:controlfield tag="001">ngl046</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2076,12 +2195,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers about profit-making enterprises that produce or supply goods, services, or sources of income.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">industry newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q106635283</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00377cz  a2200109n  4500</marc:leader>
+        <marc:leader>00495cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl047</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2097,6 +2220,10 @@
         </marc:datafield>
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Japanese American evacuation and relocation camp newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Japanese American evacuation and relocation camp newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236966</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2139,10 +2266,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00341cz  a2200109n  4500</marc:leader>
+        <marc:leader>00423cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl050</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2158,6 +2285,10 @@
         </marc:datafield>
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Ku Klux Klan newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Ku Klux Klan newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107237013</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2201,10 +2332,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00413cz  a2200121n  4500</marc:leader>
+        <marc:leader>00490cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl052</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2223,6 +2354,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers which satirize current events and people.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">lampoon newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181810</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2287,10 +2422,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00422cz  a2200121n  4500</marc:leader>
+        <marc:leader>00501cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl055</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2312,12 +2447,16 @@
             <marc:subfield code="w">g</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl046</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">lumbering newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181855</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00404cz  a2200121n  4500</marc:leader>
+        <marc:leader>00484cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl056</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2337,12 +2476,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers produced in long hand script.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">manuscript newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181871</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00573cz  a2200145n  4500</marc:leader>
+        <marc:leader>00576cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl057</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2482,10 +2625,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00347cz  a2200109n  4500</marc:leader>
+        <marc:leader>00435cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl061</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2502,13 +2645,17 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Migrant labor camp newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">migrant labor camp newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181979</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00383cz  a2200121n  4500</marc:leader>
+        <marc:leader>00550cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl062</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
-       <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
+        <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
             <marc:subfield code="b">eng</marc:subfield>
@@ -2526,11 +2673,15 @@
         </marc:datafield>
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Military post newspapers</marc:subfield>
-        </marc:datafield>      
+        </marc:datafield>
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">Military newspapers</marc:subfield>
             <marc:subfield code="w">g</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl108</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">military base newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182185</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2565,10 +2716,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00429cz  a2200121n  4500</marc:leader>
+        <marc:leader>00386cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl102</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216|||b|znn|bbn|||||||||||||ann|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2620,10 +2771,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00488cz  a2200109n  4500</marc:leader>
+        <marc:leader>00590cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl106</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">060501i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2643,12 +2794,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers about multicultural issues, racial equality, or diversity. Also use for newspapers covering issues of more than one ethnic group.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">multicultural newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182188</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00808cz  a2200181n  4500</marc:leader>
+        <marc:leader>01054cz  a2200217n  4500</marc:leader>
         <marc:controlfield tag="001">ngl065</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2679,7 +2834,7 @@
             <marc:subfield code="a">Alaska Native newspapers</marc:subfield>
             <marc:subfield code="w">h</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl004</marc:subfield>
-        </marc:datafield>  
+        </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Also apply other genre or subject headings for particular tribes and geographic locations if appropriate, e.g.,</marc:subfield>
             <marc:subfield code="a">Lummi newspapers, Blackfoot newspapers, Yakama newspapers.</marc:subfield>
@@ -2687,6 +2842,19 @@
         <marc:datafield tag="681" ind1=" " ind2=" ">
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Tribal newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="750" ind1=" " ind2="0">
+            <marc:subfield code="a">Indian newspapers</marc:subfield>
+            <marc:subfield code="0">http://id.loc.gov/authorities/subjects/sh85064983</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="750" ind1=" " ind2="7">
+            <marc:subfield code="a">Indian newspapers</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">http://id.worldcat.org/fast/969154</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Native American newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107171989</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2716,10 +2884,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00373cz  a2200121n  4500</marc:leader>
+        <marc:leader>00451cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl067</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2739,12 +2907,16 @@
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Anti-war newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">pacifist newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182322</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00560cz  a2200133n  4500</marc:leader>
+        <marc:leader>00517cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl103</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216|||b|znn|bbn|||||||||||||ann|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2889,10 +3061,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00545cz  a2200145n  4500</marc:leader>
+        <marc:leader>00626cz  a2200157n  4500</marc:leader>
         <marc:controlfield tag="001">ngl072</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2920,6 +3092,10 @@
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">Anti-slavery newspapers</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl014</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">pro-slavery newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107178453</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -2955,10 +3131,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00465cz  a2200121n  4500</marc:leader>
+        <marc:leader>00545cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl074</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -2978,12 +3154,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers of limited duration established and printed in support of local or state political issues.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">referendum newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170485</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00473cz  a2200121n  4500</marc:leader>
+        <marc:leader>00430cz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl104</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216|||b|znn|bbn|||||||||||||ann|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3005,10 +3185,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00418cz  a2200121n  4500</marc:leader>
+        <marc:leader>00494cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl075</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3028,12 +3208,16 @@
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for local newspapers published for seasonal tourist audiences.</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">resort newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170444</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00338cz  a2200109n  4500</marc:leader>
+        <marc:leader>00452cz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl076</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3052,6 +3236,10 @@
         </marc:datafield>
         <marc:datafield tag="455" ind1=" " ind2=" ">
             <marc:subfield code="a">Retiree newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">retirees' newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107170468</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3093,10 +3281,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00512cz  a2200133n  4500</marc:leader>
+        <marc:leader>00591cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl078</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3121,6 +3309,10 @@
         <marc:datafield tag="555" ind1=" " ind2=" ">
             <marc:subfield code="a">States' rights newspapers</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl084</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">secession newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107179479</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3163,10 +3355,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00506cz  a2200133n  4500</marc:leader>
+        <marc:leader>00580cz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl080</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3188,6 +3380,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for local newspapers which are primarily advertising media but which include substantive local news items and articles.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">shopping guide</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107181454</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3295,10 +3491,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00591nz  a2200133n  4500</marc:leader>
+        <marc:leader>00671nz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl041</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3321,6 +3517,10 @@
         </marc:datafield>
         <marc:datafield tag="680" ind1=" " ind2=" ">
             <marc:subfield code="i">Use for newspapers published by government organizations, but not by official publishers, e.g., Native American newspapers published by the Bureau of Indian Affairs.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">government newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236916</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3363,10 +3563,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00418nz  a2200121n  4500</marc:leader>
+        <marc:leader>00504nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl110</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3387,12 +3587,16 @@
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Political party newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Democratic Party newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107236680</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00418nz  a2200121n  4500</marc:leader>
+        <marc:leader>00504nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl111</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3412,6 +3616,10 @@
         <marc:datafield tag="681" ind1=" " ind2=" ">
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Political party newspapers</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Republican Party newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107259292</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record>
@@ -3505,10 +3713,10 @@
         </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00427nz  a2200121n  4500</marc:leader>
+        <marc:leader>00515nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl115</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3529,12 +3737,16 @@
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Religious denomination newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">non-denominational newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107259317</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00492nz  a2200133n  4500</marc:leader>
+        <marc:leader>00570nz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl116</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3560,12 +3772,16 @@
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Tribal newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Cheyenne newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182467</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00544nz  a2200145n  4500</marc:leader>
+        <marc:leader>00619nz  a2200157n  4500</marc:leader>
         <marc:controlfield tag="001">ngl117</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3595,12 +3811,16 @@
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Tribal newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Lummi newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107178411</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00484nz  a2200133n  4500</marc:leader>
+        <marc:leader>00563nz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl118</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3626,12 +3846,16 @@
             <marc:subfield code="i">Note under</marc:subfield>
             <marc:subfield code="a">Native American newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Blackfoot newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107182376</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00481nz  a2200133n  4500</marc:leader>
+        <marc:leader>00557nz  a2200145n  4500</marc:leader>
         <marc:controlfield tag="001">ngl119</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210427195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3657,12 +3881,16 @@
             <marc:subfield code="i">Note under</marc:subfield>
             <marc:subfield code="a">Native American newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Yakama newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107171988</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00680nz  a2200157n  4500</marc:leader>
+        <marc:leader>00495nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl120</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210510195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3683,12 +3911,16 @@
             <marc:subfield code="i">Example under reference from</marc:subfield>
             <marc:subfield code="a">Ethnic newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">Chinese Canadian newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183122</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00349nz  a2200109n  4500</marc:leader>
+        <marc:leader>00423nz  a2200121n  4500</marc:leader>
         <marc:controlfield tag="001">ngl107</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210611195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">210611i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3705,12 +3937,16 @@
         <marc:datafield tag="155" ind1=" " ind2=" ">
             <marc:subfield code="a">Conservative newspapers</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">conservative newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q107183151</marc:subfield>
+        </marc:datafield>
     </marc:record>
     <marc:record>
-        <marc:leader>00497nz  a2200133n  4500</marc:leader>
+        <marc:leader>00504nz  a2200133n  4500</marc:leader>
         <marc:controlfield tag="001">ngl108</marc:controlfield>
         <marc:controlfield tag="003">WaU</marc:controlfield>
-        <marc:controlfield tag="005">20210611195622.3</marc:controlfield>
+        <marc:controlfield tag="005">20210615195622.3</marc:controlfield>
         <marc:controlfield tag="008">050216i||a|znn|abn|||||||||||||ana|||||d</marc:controlfield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
             <marc:subfield code="a">WaSeUMN</marc:subfield>
@@ -3732,9 +3968,9 @@
             <marc:subfield code="w">h</marc:subfield>
             <marc:subfield code="1">https://doi.org/10.6069/uwlib.55.d.5#ngl062</marc:subfield>
         </marc:datafield>
-        <!--<marc:datafield tag="755" ind1=" " ind2="4">
-            <marc:subfield code="a">medical newspaper</marc:subfield>
-            <marc:subfield code="1">http://www.wikidata.org/entity/Q106668535</marc:subfield>
-        </marc:datafield>-->
+        <marc:datafield tag="755" ind1=" " ind2="4">
+            <marc:subfield code="a">military newspaper</marc:subfield>
+            <marc:subfield code="1">http://www.wikidata.org/entity/Q106668646</marc:subfield>
+        </marc:datafield>
     </marc:record>
 </marc:collection>
