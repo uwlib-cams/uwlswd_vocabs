@@ -13,7 +13,7 @@
     dc:contributor "Jessica Albano" ;
     dct:contributor <http://viaf.org/viaf/139541794> ;
     dct:description "Terms used to designate genres of newspapers."@en ;
-    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.json>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.nt>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.rdf>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.ttl>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.xml>, <https://www.lib.washington.edu/gmm/collections/mcnews/ngl>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList>;
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.json>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.nt>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.rdf>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.ttl>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.xml>, <https://www.lib.washington.edu/gmm/collections/mcnews/ngl>, <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list>;
     dct:title "Newspaper Genre List"@en ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>, <http://www.w3.org/ns/formats/N-Triples>, <http://www.w3.org/ns/formats/RDF_XML>, <http://www.w3.org/ns/formats/RDFa>, <http://www.w3.org/ns/formats/Turtle> ;
     a void:Dataset, skos:ConceptScheme ;

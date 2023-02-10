@@ -1241,25 +1241,25 @@
     ],
     "http://purl.org/dc/terms/hasFormat": [
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.nt"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.nt"
       },
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.json"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.json"
       },
       {
         "@id": "https://www.lib.washington.edu/gmm/collections/mcnews/ngl"
       },
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.rdf"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.rdf"
       },
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list"
       },
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.xml"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.xml"
       },
       {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.ttl"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.ttl"
       }
     ],
     "http://purl.org/dc/terms/title": [

@@ -18,7 +18,7 @@
 <https://doi.org/10.6069/uwlib.55.d.5#ngl046> <http://www.w3.org/2004/02/skos/core#prefLabel> "Industry newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl094> <http://www.w3.org/2004/02/skos/core#altLabel> "Union newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl102> <http://www.w3.org/2004/02/skos/core#member> <https://doi.org/10.6069/uwlib.55.d.5#ngl042> .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.xml> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.xml> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl091> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q106650967> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q106632462> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q106632462> .
@@ -91,7 +91,7 @@
 <https://doi.org/10.6069/uwlib.55.d.5#ngl069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5> <http://www.w3.org/2002/07/owl#versionInfo> "1-0-0" .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.rdf> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.rdf> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Referendum newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl034> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q106652971> .
@@ -129,7 +129,7 @@
 <https://doi.org/10.6069/uwlib.55.d.5#ngl051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Labor newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl058> <http://www.w3.org/2004/02/skos/core#related> <https://doi.org/10.6069/uwlib.55.d.5#ngl026> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl057> <http://www.w3.org/2004/02/skos/core#broader> <https://doi.org/10.6069/uwlib.55.d.5#ngl046> .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl027> <http://www.w3.org/2004/02/skos/core#altLabel> "Neighborhood newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl069> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prohibition newspapers"@en .
@@ -431,7 +431,7 @@
 <https://doi.org/10.6069/uwlib.55.d.5#ngl056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl039> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2065227> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl060> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q106668608> .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.nt> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.nt> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl016> <http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority> <http://id.worldcat.org/fast/818594> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl027> <http://www.w3.org/2004/02/skos/core#altLabel> "Suburban newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anti-Masonic newspapers"@en .
@@ -625,11 +625,11 @@
 <https://doi.org/10.6069/uwlib.55.d.5#ngl014> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q106651322> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl034> <http://www.w3.org/2004/02/skos/core#scopeNote> "Use for newspapers advocating social and political rights of women\n      equal to men."@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Republican Party newspapers"@en .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.json> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.json> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asian American newspapers"@en .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl051> <http://www.w3.org/2004/02/skos/core#narrower> <https://doi.org/10.6069/uwlib.55.d.5#ngl023> .
-<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.ttl> .
+<https://doi.org/10.6069/uwlib.55.d.5> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.ttl> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q106632462> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl001> <http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority> <http://id.worldcat.org/fast/799278> .
 <https://doi.org/10.6069/uwlib.55.d.5#ngl099> <http://www.w3.org/2004/02/skos/core#scopeNote> "Use for newspapers whose intended audience is\n      women."@en .

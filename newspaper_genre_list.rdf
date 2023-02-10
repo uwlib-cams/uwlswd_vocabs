@@ -10,25 +10,25 @@
     <dct:description xml:lang="en">Terms used to designate genres of newspapers.</dct:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.json"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.nt"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.nt"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.rdf"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.rdf"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.ttl"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.ttl"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList.xml"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list.xml"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
     <dct:hasFormat rdf:resource="https://www.lib.washington.edu/gmm/collections/mcnews/ngl"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaperGenreList"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/newspaper_genre_list"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.5">
     <dct:title xml:lang="en">Newspaper Genre List</dct:title>
