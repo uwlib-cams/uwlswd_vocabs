@@ -11,13 +11,13 @@
     ],
     "http://purl.org/dc/terms/hasFormat": [
       {
-        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.ttl"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt"
       },
       {
-        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.nt"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf"
       },
       {
-        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.rdf"
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -27,13 +27,13 @@
     ],
     "http://rdfs.org/ns/void#feature": [
       {
-        "@id": "http://www.w3.org/ns/formats/RDFa"
-      },
-      {
         "@id": "http://www.w3.org/ns/formats/N-Triples"
       },
       {
         "@id": "http://www.w3.org/ns/formats/RDF_XML"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/RDFa"
       },
       {
         "@id": "http://www.w3.org/ns/formats/Turtle"
