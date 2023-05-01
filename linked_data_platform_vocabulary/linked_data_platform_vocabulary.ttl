@@ -1,0 +1,23 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix uwpv: <https://doi.org/10.6069/uwlib.55.b.1#> .
+@prefix voc: <https://www.lib.washington.edu/static/public/cams/data/vocabularies/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+uwpv:Platform a rdfs:Class .
+
+<https://doi.org/10.6069/uwlib.55.b.1> a void:Dataset ;
+    dct:creator <http://viaf.org/viaf/139541794> ;
+    dct:hasFormat voc:platformVocab-1-0-0.nt,
+        voc:platformVocab-1-0-0.rdf,
+        voc:platformVocab-1-0-0.ttl ;
+    dct:title "Linked Data Platform Vocabulary" ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples>,
+        <http://www.w3.org/ns/formats/RDF_XML>,
+        <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    owl:versionInfo "1-0-0" ;
+    ldproc:containsEntity rdfs:Class .
+

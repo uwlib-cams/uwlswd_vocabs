@@ -1,0 +1,59 @@
+[
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.1",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.ttl"
+      },
+      {
+        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.nt"
+      },
+      {
+        "@id": "https://www.lib.washington.edu/static/public/cams/data/vocabularies/platformVocab-1-0-0.rdf"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Linked Data Platform Vocabulary"
+      }
+    ],
+    "http://rdfs.org/ns/void#feature": [
+      {
+        "@id": "http://www.w3.org/ns/formats/RDFa"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/N-Triples"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/RDF_XML"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/Turtle"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1-0-0"
+      }
+    ],
+    "https://doi/org/10.6069/uwlib.55.b.2#containsEntity": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  }
+]
