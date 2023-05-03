@@ -18,6 +18,9 @@
       },
       {
         "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"
+      },
+      {
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -37,6 +40,9 @@
       },
       {
         "@id": "http://www.w3.org/ns/formats/Turtle"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionInfo": [

@@ -12,12 +12,14 @@ uwpv:Platform a rdfs:Class .
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:hasFormat voc:linked_data_platform_vocabulary.nt ,
         voc:linked_data_platform_vocabulary.rdf ,
-        voc:linked_data_platform_vocabulary.ttl ;
+        voc:linked_data_platform_vocabulary.html ,
+        voc:linked_data_platform_vocabulary.jsonld ;
     dct:title "Linked Data Platform Vocabulary" ;
     void:feature <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
-        <http://www.w3.org/ns/formats/Turtle> ;
+        <http://www.w3.org/ns/formats/Turtle> ,
+        <http://www.w3.org/ns/formats/JSON-LD> ;
     owl:versionInfo "1-0-0" ;
     ldproc:containsEntity rdfs:Class .
 

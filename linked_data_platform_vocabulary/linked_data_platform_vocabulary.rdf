@@ -10,13 +10,15 @@
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt"/>
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"/>
     <dct:title>Linked Data Platform Vocabulary</dct:title>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
     <owl:versionInfo>1-0-0</owl:versionInfo>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>

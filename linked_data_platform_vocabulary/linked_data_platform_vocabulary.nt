@@ -4,10 +4,12 @@
 <https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/creator> <http://viaf.org/viaf/139541794> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
+<https://doi.org/10.6069/uwlib.55.b.1> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/JSON-LD> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf> .
-<https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt> .
+<https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/title> "Linked Data Platform Vocabulary" .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://www.w3.org/2002/07/owl#versionInfo> "1-0-0" .
 <https://doi.org/10.6069/uwlib.55.b.1> <https://doi/org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl> .
+<https://doi.org/10.6069/uwlib.55.b.1> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld> .
