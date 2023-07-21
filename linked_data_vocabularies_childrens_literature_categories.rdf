@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:voc="https://www.lib.washington.edu/static/public/cams/data/vocabularies/" xmlns:void="http://rdfs.org/ns/void#">
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:voc="https://uwlib-cams.github.io/uwlswd_vocabs/" xmlns:void="http://rdfs.org/ns/void#">
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#activitybooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -247,13 +247,13 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/childrensLitCategories-1-0-0.ttl"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.ttl"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/childrensLitCategories-1-0-0.nt"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.nt"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/vocabularies/childrensLitCategories-1-0-0.rdf"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.jsonld"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3">
     <void:classPartition rdf:nodeID="genid1"/>
