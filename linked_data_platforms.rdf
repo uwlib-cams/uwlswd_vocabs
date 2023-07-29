@@ -64,13 +64,13 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.nt"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.nt"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.ttl"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
-    <dct:hasFormat rdf:resource="https://www.lib.washington.edu/static/public/cams/data/localResources/classes_local-1-0-0.rdf"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
