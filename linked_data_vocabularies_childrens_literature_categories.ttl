@@ -117,7 +117,8 @@
     dct:alternate "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "Categories for describing types of historical children's literature" ;
-    dct:hasFormat voc:linked_data_vocabularies_childrens_literature_categories.jsonld,
+    dct:hasFormat voc:linked_data_vocabularies_childrens_literature_categories.html,
+        voc:linked_data_vocabularies_childrens_literature_categories.jsonld,
         voc:linked_data_vocabularies_childrens_literature_categories.nt,
         voc:linked_data_vocabularies_childrens_literature_categories.rdf ;
     dct:title "Linked Data Vocabularies: Children's Literature Categories" ;
