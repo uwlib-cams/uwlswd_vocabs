@@ -9,7 +9,8 @@
 <https://doi.org/10.6069/uwlib.55.d.2> a void:Dataset ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "Platforms (or applications) used to process RDF datasets." ;
-    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld>,
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.nt>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf> ;
     dct:title "Linked Data Platforms" ;
