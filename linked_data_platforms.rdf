@@ -7,10 +7,6 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:void="http://rdfs.org/ns/void#"
 >
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Open Refine</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
@@ -25,30 +21,34 @@
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html"/>
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <void:classPartition rdf:nodeID="N0ac98dbcbdb64defbdacf7c167654da5"/>
+    <void:classPartition rdf:nodeID="N080abbcbde30452ba49858d07d864cf5"/>
     <owl:versionInfo>1-0-0</owl:versionInfo>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Microsoft Excel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0ac98dbcbdb64defbdacf7c167654da5">
+  <rdf:Description rdf:nodeID="N080abbcbde30452ba49858d07d864cf5">
     <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>SPARQL</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>Fuseki</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Open Refine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Microsoft Excel</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
