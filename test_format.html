@@ -40,17 +40,6 @@
         <script type="text/javascript" src="https://uwlib-cams.github.io/webviews/js/uwlswd.js"></script>
         <h1>Linked Data Platforms</h1>
         <p>Platforms (or applications) used to process RDF datasets.</p>
-        <h2>Links to Alternate Serializations for Linked Data Platforms</h2>
-        <div class="alternatelinks">
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.nt">N-Triples
-            </a>
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl">Turtle
-            </a>
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld">JSON-LD
-            </a>
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf">RDF/XML
-            </a>
-        </div>
         <h2 id="triples">RDF Triples for Linked Data Platforms</h2>
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'table')">Table View</button>
@@ -191,8 +180,8 @@
                         <td>
                             <a href="http://rdfs.org/ns/void#">void:classPartition</a>
                         </td>
-                        <td property="void:classPartition" resource="[_:N080abbcbde30452ba49858d07d864cf5]">
-                            <a href="#N080abbcbde30452ba49858d07d864cf5">_:N080abbcbde30452ba49858d07d864cf5</a>
+                        <td property="void:classPartition" resource="[_:Nb80729d2719949348ad60744dbca886b]">
+                            <a href="#Nb80729d2719949348ad60744dbca886b">_:Nb80729d2719949348ad60744dbca886b</a>
                         </td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.d.2">
@@ -359,8 +348,8 @@
                         </td>
                         <td property="rdfs:label">Silk Linked Data Integration Framework</td>
                     </tr>
-                    <tr id="N080abbcbde30452ba49858d07d864cf5" about="[_:N080abbcbde30452ba49858d07d864cf5]">
-                        <td>_:N080abbcbde30452ba49858d07d864cf5</td>
+                    <tr id="Nb80729d2719949348ad60744dbca886b" about="[_:Nb80729d2719949348ad60744dbca886b]">
+                        <td>_:Nb80729d2719949348ad60744dbca886b</td>
                         <td>
                             <a href="http://rdfs.org/ns/void#class">void:class</a>
                         </td>
@@ -372,8 +361,7 @@
             </table>
         </div>
         <div id="rdfxml" class="tabcontent">
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf" download target="_blank" rel="noopener noreferrer">Download RDF/XML
-            </a>
+            <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf" download="" target="_blank" rel="noopener noreferrer">Download RDF/XML</a>
             <pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;rdf:RDF
    xmlns:dct="http://purl.org/dc/terms/"
@@ -397,27 +385,16 @@
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld"/&gt;
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html"/&gt;
     &lt;ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
-    &lt;void:classPartition rdf:nodeID="N080abbcbde30452ba49858d07d864cf5"/&gt;
+    &lt;void:classPartition rdf:nodeID="Nb80729d2719949348ad60744dbca886b"/&gt;
     &lt;owl:versionInfo&gt;1-0-0&lt;/owl:versionInfo&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:nodeID="N080abbcbde30452ba49858d07d864cf5"&gt;
-    &lt;void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001"&gt;
-    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
-    &lt;rdfs:label&gt;SPARQL&lt;/rdfs:label&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006"&gt;
-    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
-    &lt;rdfs:label&gt;Silk Linked Data Integration Framework&lt;/rdfs:label&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002"&gt;
-    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
-    &lt;rdfs:label&gt;Fuseki&lt;/rdfs:label&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004"&gt;
     &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
     &lt;rdfs:label&gt;iMacros [Firefox plugin]&lt;/rdfs:label&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002"&gt;
+    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
+    &lt;rdfs:label&gt;Fuseki&lt;/rdfs:label&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005"&gt;
     &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
@@ -427,12 +404,22 @@
     &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
     &lt;rdfs:label&gt;Microsoft Excel&lt;/rdfs:label&gt;
   &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001"&gt;
+    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
+    &lt;rdfs:label&gt;SPARQL&lt;/rdfs:label&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006"&gt;
+    &lt;rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
+    &lt;rdfs:label&gt;Silk Linked Data Integration Framework&lt;/rdfs:label&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:nodeID="Nb80729d2719949348ad60744dbca886b"&gt;
+    &lt;void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/&gt;
+  &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;
 </pre>
         </div>
         <div id="ttl" class="tabcontent">
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl" download target="_blank" rel="noopener noreferrer">Download Turtle
-            </a>
+            <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl" download="" target="_blank" rel="noopener noreferrer">Download Turtle</a>
             <pre>@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
 @prefix ldproc: &lt;https://doi/org/10.6069/uwlib.55.b.2#&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
@@ -476,50 +463,48 @@
 </pre>
         </div>
         <div id="nt" class="tabcontent">
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.nt" download target="_blank" rel="noopener noreferrer">Download N-Triples
-            </a>
-            <pre>&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;https://doi/org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/description&gt; "Platforms (or applications) used to process RDF datasets." .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform001&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "SPARQL" .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://www.w3.org/2002/07/owl#versionInfo&gt; "1-0-0" .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform002&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform001&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform006&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Silk Linked Data Integration Framework" .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform004&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "iMacros [Firefox plugin]" .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Platforms" .
+            <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.nt" download="" target="_blank" rel="noopener noreferrer">Download N-Triples</a>
+            <pre>&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://www.w3.org/2002/07/owl#versionInfo&gt; "1-0-0" .
 &lt;https://doi.org/10.6069/uwlib.55.d.2#platform004&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform005&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform004&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "iMacros [Firefox plugin]" .
 &lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform005&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Open Refine" .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform003&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform006&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/description&gt; "Platforms (or applications) used to process RDF datasets." .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.2#platform002&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Fuseki" .
-_:N6a14bf57cd934c09a46c3d6741e2613e &lt;http://rdfs.org/ns/void#class&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N6a14bf57cd934c09a46c3d6741e2613e .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform005&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.2#platform003&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Microsoft Excel" .
+_:N2efb278b53e24bf6966929a707833ce7 &lt;http://rdfs.org/ns/void#class&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform003&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform001&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "SPARQL" .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;https://doi/org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform005&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Open Refine" .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform001&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform002&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform006&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Silk Linked Data Integration Framework" .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform006&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.2#platform003&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Microsoft Excel" .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Platforms" .
+&lt;https://doi.org/10.6069/uwlib.55.d.2&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N2efb278b53e24bf6966929a707833ce7 .
 </pre>
         </div>
         <div id="json" class="tabcontent">
-            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld" download target="_blank" rel="noopener noreferrer">Download JSON
-            </a>
+            <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld" download="" target="_blank" rel="noopener noreferrer">Download JSON-LD</a>
             <pre>[
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Silk Linked Data Integration Framework"
+        "@value": "Microsoft Excel"
       }
     ]
   },
@@ -559,7 +544,7 @@ _:N6a14bf57cd934c09a46c3d6741e2613e &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N6a14bf57cd934c09a46c3d6741e2613e"
+        "@id": "_:N2efb278b53e24bf6966929a707833ce7"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -588,7 +573,7 @@ _:N6a14bf57cd934c09a46c3d6741e2613e &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "_:N6a14bf57cd934c09a46c3d6741e2613e",
+    "@id": "_:N2efb278b53e24bf6966929a707833ce7",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
@@ -596,13 +581,13 @@ _:N6a14bf57cd934c09a46c3d6741e2613e &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Microsoft Excel"
+        "@value": "Silk Linked Data Integration Framework"
       }
     ]
   },
