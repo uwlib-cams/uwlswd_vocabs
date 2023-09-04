@@ -21,11 +21,24 @@
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html"/>
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <void:classPartition rdf:nodeID="N080abbcbde30452ba49858d07d864cf5"/>
+    <void:classPartition rdf:nodeID="Nb80729d2719949348ad60744dbca886b"/>
     <owl:versionInfo>1-0-0</owl:versionInfo>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N080abbcbde30452ba49858d07d864cf5">
-    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Fuseki</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Open Refine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Microsoft Excel</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
@@ -35,20 +48,7 @@
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Fuseki</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Open Refine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Microsoft Excel</rdfs:label>
+  <rdf:Description rdf:nodeID="Nb80729d2719949348ad60744dbca886b">
+    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
   </rdf:Description>
 </rdf:RDF>

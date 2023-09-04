@@ -1,28 +1,28 @@
-<https://doi.org/10.6069/uwlib.55.d.2> <https://doi/org/10.6069/uwlib.55.b.2#containsEntity> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/description> "Platforms (or applications) used to process RDF datasets." .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform001> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL" .
 <https://doi.org/10.6069/uwlib.55.d.2> <http://www.w3.org/2002/07/owl#versionInfo> "1-0-0" .
-<https://doi.org/10.6069/uwlib.55.d.2#platform002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform006> <http://www.w3.org/2000/01/rdf-schema#label> "Silk Linked Data Integration Framework" .
-<https://doi.org/10.6069/uwlib.55.d.2#platform004> <http://www.w3.org/2000/01/rdf-schema#label> "iMacros [Firefox plugin]" .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/title> "Linked Data Platforms" .
 <https://doi.org/10.6069/uwlib.55.d.2#platform004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform004> <http://www.w3.org/2000/01/rdf-schema#label> "iMacros [Firefox plugin]" .
 <https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDFa> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform005> <http://www.w3.org/2000/01/rdf-schema#label> "Open Refine" .
-<https://doi.org/10.6069/uwlib.55.d.2#platform003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
 <https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/description> "Platforms (or applications) used to process RDF datasets." .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.html> .
 <https://doi.org/10.6069/uwlib.55.d.2#platform002> <http://www.w3.org/2000/01/rdf-schema#label> "Fuseki" .
-_:N6a14bf57cd934c09a46c3d6741e2613e <http://rdfs.org/ns/void#class> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#classPartition> _:N6a14bf57cd934c09a46c3d6741e2613e .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.ttl> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
 <https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/creator> <http://viaf.org/viaf/139541794> .
-<https://doi.org/10.6069/uwlib.55.d.2#platform003> <http://www.w3.org/2000/01/rdf-schema#label> "Microsoft Excel" .
+_:N2efb278b53e24bf6966929a707833ce7 <http://rdfs.org/ns/void#class> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform001> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL" .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.jsonld> .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms.rdf> .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
 <https://doi.org/10.6069/uwlib.55.d.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.d.2> <https://doi/org/10.6069/uwlib.55.b.2#containsEntity> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform005> <http://www.w3.org/2000/01/rdf-schema#label> "Open Refine" .
+<https://doi.org/10.6069/uwlib.55.d.2#platform001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform006> <http://www.w3.org/2000/01/rdf-schema#label> "Silk Linked Data Integration Framework" .
+<https://doi.org/10.6069/uwlib.55.d.2#platform006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.d.2#platform003> <http://www.w3.org/2000/01/rdf-schema#label> "Microsoft Excel" .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://purl.org/dc/terms/title> "Linked Data Platforms" .
+<https://doi.org/10.6069/uwlib.55.d.2> <http://rdfs.org/ns/void#classPartition> _:N2efb278b53e24bf6966929a707833ce7 .

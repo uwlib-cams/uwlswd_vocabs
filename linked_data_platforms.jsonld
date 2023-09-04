@@ -1,12 +1,12 @@
 [
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Silk Linked Data Integration Framework"
+        "@value": "Microsoft Excel"
       }
     ]
   },
@@ -46,7 +46,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N6a14bf57cd934c09a46c3d6741e2613e"
+        "@id": "_:N2efb278b53e24bf6966929a707833ce7"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "@id": "_:N6a14bf57cd934c09a46c3d6741e2613e",
+    "@id": "_:N2efb278b53e24bf6966929a707833ce7",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
@@ -83,13 +83,13 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Microsoft Excel"
+        "@value": "Silk Linked Data Integration Framework"
       }
     ]
   },
