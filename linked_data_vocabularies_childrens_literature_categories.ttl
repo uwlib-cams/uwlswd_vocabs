@@ -1,8 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix voc: <https://uwlib-cams.github.io/uwlswd_vocabs/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <https://doi.org/10.6069/uwlib.55.B.3#activitybooks> a skos:Concept ;
@@ -117,16 +116,16 @@
     dct:alternate "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "Categories for describing types of historical children's literature" ;
-    dct:hasFormat voc:linked_data_vocabularies_childrens_literature_categories.html,
-        voc:linked_data_vocabularies_childrens_literature_categories.jsonld,
-        voc:linked_data_vocabularies_childrens_literature_categories.nt,
-        voc:linked_data_vocabularies_childrens_literature_categories.rdf ;
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.html>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.jsonld>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.nt>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_vocabularies_childrens_literature_categories.rdf> ;
     dct:title "Linked Data Vocabularies: Children's Literature Categories" ;
     void:classPartition [ void:class skos:Concept ] ;
     void:feature <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    owl:versionInfo "1-0-0" ;
-    ldproc:containsEntity skos:Concept .
+    ldproc:containsEntity skos:Concept ;
+    schema:version "1-1-0" .
 
