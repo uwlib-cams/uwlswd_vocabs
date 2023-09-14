@@ -2,8 +2,8 @@
 <rdf:RDF
    xmlns:dct="http://purl.org/dc/terms/"
    xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
    xmlns:void="http://rdfs.org/ns/void#"
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
@@ -19,8 +19,8 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
-    <owl:versionInfo>1-0-0</owl:versionInfo>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <schema:version>1-1-0</schema:version>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1#Platform">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
