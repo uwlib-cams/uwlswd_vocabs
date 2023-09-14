@@ -1,12 +1,23 @@
 [
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Microsoft Excel"
+        "@value": "SPARQL"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Open Refine"
       }
     ]
   },
@@ -46,7 +57,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N2efb278b53e24bf6966929a707833ce7"
+        "@id": "_:N18c9a0d980714d45aa1317f3aeb9bc23"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -63,55 +74,22 @@
         "@id": "http://www.w3.org/ns/formats/Turtle"
       }
     ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1-0-0"
-      }
-    ],
     "https://doi/org/10.6069/uwlib.55.b.2#containsEntity": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
       }
+    ],
+    "https://schema.org/version": [
+      {
+        "@value": "1-1-0"
+      }
     ]
   },
   {
-    "@id": "_:N2efb278b53e24bf6966929a707833ce7",
+    "@id": "_:N18c9a0d980714d45aa1317f3aeb9bc23",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Silk Linked Data Integration Framework"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Fuseki"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Open Refine"
       }
     ]
   },
@@ -127,13 +105,35 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "SPARQL"
+        "@value": "Fuseki"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Silk Linked Data Integration Framework"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Microsoft Excel"
       }
     ]
   }

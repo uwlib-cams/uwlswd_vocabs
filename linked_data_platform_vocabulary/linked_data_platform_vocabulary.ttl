@@ -1,25 +1,23 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix uwpv: <https://doi.org/10.6069/uwlib.55.b.1#> .
-@prefix voc: <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/> .
+@prefix schema: <https://schema.org/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-uwpv:Platform a rdfs:Class .
+<https://doi.org/10.6069/uwlib.55.b.1#Platform> a rdfs:Class .
 
 <https://doi.org/10.6069/uwlib.55.b.1> a void:Dataset ;
     dct:creator <http://viaf.org/viaf/139541794> ;
-    dct:hasFormat voc:linked_data_platform_vocabulary.nt ,
-        voc:linked_data_platform_vocabulary.rdf ,
-        voc:linked_data_platform_vocabulary.html ,
-        voc:linked_data_platform_vocabulary.jsonld ;
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf> ;
     dct:title "Linked Data Platform Vocabulary" ;
-    void:feature <http://www.w3.org/ns/formats/N-Triples>,
+    void:feature <http://www.w3.org/ns/formats/JSON-LD>,
+        <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
-        <http://www.w3.org/ns/formats/Turtle> ,
-        <http://www.w3.org/ns/formats/JSON-LD> ;
-    owl:versionInfo "1-0-0" ;
-    ldproc:containsEntity rdfs:Class .
+        <http://www.w3.org/ns/formats/Turtle> ;
+    ldproc:containsEntity rdfs:Class ;
+    schema:version "1-1-0" .
 
