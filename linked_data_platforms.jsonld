@@ -1,23 +1,12 @@
 [
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "SPARQL"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Open Refine"
+        "@value": "Fuseki"
       }
     ]
   },
@@ -57,7 +46,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N18c9a0d980714d45aa1317f3aeb9bc23"
+        "@id": "_:N36bcc5c03cf84783b7abdb85313ccf2a"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -86,7 +75,7 @@
     ]
   },
   {
-    "@id": "_:N18c9a0d980714d45aa1317f3aeb9bc23",
+    "@id": "_:N36bcc5c03cf84783b7abdb85313ccf2a",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
@@ -105,24 +94,24 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Fuseki"
+        "@value": "Open Refine"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "Silk Linked Data Integration Framework"
+        "@value": "SPARQL"
       }
     ]
   },
@@ -134,6 +123,17 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Microsoft Excel"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Silk Linked Data Integration Framework"
       }
     ]
   }
