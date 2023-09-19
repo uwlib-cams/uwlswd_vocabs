@@ -1,0 +1,26 @@
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/elements/1.1/creator> "University of Washington Libraries"@en .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/elements/1.1/publisher> "University of Washington Libraries"@en .
+_:N975a49fce2f84bd5a37990bb096b4d2b <http://rdfs.org/ns/void#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.europeana.eu/schemas/edm/Agent> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."@en .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/dcmitype/Collection> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://doi.org/10.6069/uwlib.55.d.3> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/publisher> <http://viaf.org/viaf/139541794> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://rdfs.org/ns/void#classPartition> _:N975a49fce2f84bd5a37990bb096b4d2b .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.jsonld> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isReferencedBy> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/creator> <http://viaf.org/viaf/139541794> .
+<https://doi.org/10.6069/uwlib.55.d.3> <https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDFa> .
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> <http://www.w3.org/2000/01/rdf-schema#label> "Is Referenced in Digital Collection" .
+<https://doi.org/10.6069/uwlib.55.d.3> <https://schema.org/version> "1-2-0" .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/title> "University of Washington Libraries rdf:Property Definitions"@en .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/description> "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."@en .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf> .
+<https://doi.org/10.6069/uwlib.55.d.3> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl> .

@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> a rdf:Property ;
+    rdfs:label "Is Referenced in Digital Collection" ;
+    rdfs:comment "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."@en ;
+    rdfs:domain <http://www.europeana.eu/schemas/edm/Agent> ;
+    rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.3> ;
+    rdfs:range <http://purl.org/dc/dcmitype/Collection> ;
+    rdfs:subPropertyOf dct:isReferencedBy .
+
+<https://doi.org/10.6069/uwlib.55.d.3> a void:Dataset ;
+    dc:creator "University of Washington Libraries"@en ;
+    dc:publisher "University of Washington Libraries"@en ;
+    dct:creator <http://viaf.org/viaf/139541794> ;
+    dct:description "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."@en ;
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.jsonld>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.nt>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf> ;
+    dct:publisher <http://viaf.org/viaf/139541794> ;
+    dct:title "University of Washington Libraries rdf:Property Definitions"@en ;
+    void:classPartition [ void:class rdf:Property ] ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples>,
+        <http://www.w3.org/ns/formats/RDF_XML>,
+        <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    ldproc:containsEntity rdf:Property ;
+    schema:version "1-2-0" .
+
