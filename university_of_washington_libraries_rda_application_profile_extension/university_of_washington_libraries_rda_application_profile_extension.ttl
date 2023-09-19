@@ -1,3 +1,4 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -108,6 +109,8 @@
     skos:note "This property is expected to be used to describe RDA Manifestations and Items only. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."@en .
 
 <https://doi.org/10.6069/uwlib.55.d.4> a void:Dataset ;
+    dc:creator "University of Washington Libraries"@en ;
+    dc:publisher "University of Washington Libraries"@en ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "RDF dataset describing properties required beyond those provided by the RDA Registry to describe RDA Entities at University of Washington Libraries."@en ;
     dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.html>,
@@ -125,5 +128,5 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdf:Property ;
-    schema:version "1-1-1" .
+    schema:version "1-2-1" .
 
