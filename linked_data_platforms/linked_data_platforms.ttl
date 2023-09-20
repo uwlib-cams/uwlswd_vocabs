@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://doi.org/10.6069/uwlib.55.d.2> a void:Dataset ;
+    dcterms:creator <http://viaf.org/viaf/139541794> ;
+    dcterms:description "Platforms (or applications) used to process RDF datasets." ;
+    dcterms:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.jsonld>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.nt>,
+        <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.rdf> ;
+    dcterms:title "Linked Data Platforms" ;
+    void:classPartition [ void:class <https://doi.org/10.6069/uwlib.55.b.1#Platform> ] ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples>,
+        <http://www.w3.org/ns/formats/RDF_XML>,
+        <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    ldproc:containsEntity <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    schema:version "1-2-0" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform001> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "SPARQL" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform002> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "Fuseki" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform003> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "Microsoft Excel" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform004> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "iMacros [Firefox plugin]" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform005> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "Open Refine" .
+
+<https://doi.org/10.6069/uwlib.55.d.2#platform006> a <https://doi.org/10.6069/uwlib.55.b.1#Platform> ;
+    rdfs:label "Silk Linked Data Integration Framework" .
+
