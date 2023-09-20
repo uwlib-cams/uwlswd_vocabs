@@ -54,7 +54,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N0f96d97083c440e6a70e4a10886885cc"
+        "@id": "_:N656363c278f24f6b90e311aadce2402c"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -83,38 +83,10 @@
     ]
   },
   {
-    "@id": "_:N0f96d97083c440e6a70e4a10886885cc",
+    "@id": "_:N656363c278f24f6b90e311aadce2402c",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber",
-    "@type": [
-      "http://www.w3.org/2000/01/rdf-schema#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries' reference number for a\n      photographer."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.1"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Photographers Reference Number"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://id.loc.gov/ontologies/bibframe/Identifier"
       }
     ]
   },
@@ -138,6 +110,34 @@
       {
         "@language": "en",
         "@value": "Order Number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://id.loc.gov/ontologies/bibframe/Identifier"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "University of Washington Libraries' reference number for a\n      photographer."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Photographers Reference Number"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [

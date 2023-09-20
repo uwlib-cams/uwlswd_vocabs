@@ -8,6 +8,15 @@
    xmlns:schema="https://schema.org/"
    xmlns:void="http://rdfs.org/ns/void#"
 >
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment xml:lang="en">Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
+    <rdfs:label>Is Referenced in Digital Collection</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
+    <rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
@@ -16,7 +25,7 @@
     <dc:publisher xml:lang="en">University of Washington Libraries</dc:publisher>
     <dct:description xml:lang="en">RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data.</dct:description>
     <dct:title xml:lang="en">University of Washington Libraries rdf:Property Definitions</dct:title>
-    <void:classPartition rdf:nodeID="N975a49fce2f84bd5a37990bb096b4d2b"/>
+    <void:classPartition rdf:nodeID="N5ee122ddb6534df6bcfb485933b1b282"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
@@ -28,16 +37,7 @@
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N975a49fce2f84bd5a37990bb096b4d2b">
+  <rdf:Description rdf:nodeID="N5ee122ddb6534df6bcfb485933b1b282">
     <void:class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:comment xml:lang="en">Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
-    <rdfs:label>Is Referenced in Digital Collection</rdfs:label>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
-    <rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
   </rdf:Description>
 </rdf:RDF>

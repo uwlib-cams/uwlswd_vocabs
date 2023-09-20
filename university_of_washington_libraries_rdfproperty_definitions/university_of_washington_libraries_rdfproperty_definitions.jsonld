@@ -91,7 +91,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N975a49fce2f84bd5a37990bb096b4d2b"
+        "@id": "_:N5ee122ddb6534df6bcfb485933b1b282"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "@id": "_:N975a49fce2f84bd5a37990bb096b4d2b",
+    "@id": "_:N5ee122ddb6534df6bcfb485933b1b282",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
