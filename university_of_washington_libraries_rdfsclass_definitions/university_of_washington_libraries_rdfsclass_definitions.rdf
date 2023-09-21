@@ -21,23 +21,12 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <void:classPartition rdf:nodeID="N0f96d97083c440e6a70e4a10886885cc"/>
+    <void:classPartition rdf:nodeID="N656363c278f24f6b90e311aadce2402c"/>
     <schema:version>1-2-1</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.html"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0f96d97083c440e6a70e4a10886885cc">
-    <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
-    <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
-    <rdfs:label xml:lang="en">Order Number</rdfs:label>
-    <rdfs:comment xml:lang="en">Number used to order a copy of a digital resource from the
-      University of Washington Libraries.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -55,5 +44,16 @@
     <rdfs:label xml:lang="en">Photographers Reference Number</rdfs:label>
     <rdfs:comment xml:lang="en">University of Washington Libraries' reference number for a
       photographer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
+    <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
+    <rdfs:label xml:lang="en">Order Number</rdfs:label>
+    <rdfs:comment xml:lang="en">Number used to order a copy of a digital resource from the
+      University of Washington Libraries.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N656363c278f24f6b90e311aadce2402c">
+    <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
 </rdf:RDF>

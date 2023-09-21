@@ -8,7 +8,7 @@
 <https://doi.org/10.6069/uwlib.55.b.2> a void:Dataset ;
     dc:creator "University of Washington Libraries"@en ;
     dc:publisher "University of Washington Libraries"@en ;
-    dct:alternate "Reconciliation Vocabulary" ;
+    dct:alternative "Reconciliation Vocabulary" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "Vocabulary for describing processes run on linked data datasets." ;
     dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html>,
@@ -26,7 +26,7 @@
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    schema:version "1-4-1" .
+    schema:version "1-5-1" .
 
 <https://doi.org/10.6069/uwlib.55.b.2#containsEntity> a rdfs:Property ;
     rdfs:label "Entities in Dataset" ;
