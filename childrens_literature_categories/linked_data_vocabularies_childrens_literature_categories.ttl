@@ -113,7 +113,7 @@
     skos:preflabel "Trades and Occupations" .
 
 <https://doi.org/10.6069/uwlib.55.b.3> a void:Dataset ;
-    dcterms:alternate "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
+    dcterms:alternative "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
     dcterms:creator <http://viaf.org/viaf/139541794> ;
     dcterms:description "Categories for describing types of historical children's literature" ;
     dcterms:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html>,
