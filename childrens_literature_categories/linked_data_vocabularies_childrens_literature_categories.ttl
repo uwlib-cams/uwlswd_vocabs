@@ -1,3 +1,4 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
 @prefix schema: <https://schema.org/> .
@@ -113,13 +114,19 @@
     skos:preflabel "Trades and Occupations" .
 
 <https://doi.org/10.6069/uwlib.55.b.3> a void:Dataset ;
+    dc:language "en-US" ;
     dcterms:alternative "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
     dcterms:creator <http://viaf.org/viaf/139541794> ;
-    dcterms:description "Categories for describing types of historical children's literature" ;
+    dcterms:description "Categories for describing types of historical children's literature",
+        "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html." ;
+    dcterms:format <http://www.w3.org/ns/formats/Turtle> ;
     dcterms:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf> ;
+    dcterms:issued "2018" ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0> ;
+    dcterms:publisher <http://viaf.org/viaf/139541794> ;
     dcterms:title "Linked Data Vocabularies: Children's Literature Categories" ;
     void:classPartition [ void:class skos:Concept ] ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
@@ -128,5 +135,6 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity skos:Concept ;
-    schema:version "1-2-0" .
+    schema:disambiguatingDescription "SKOS Concept Scheme" ;
+    schema:version "1-2-1" .
 
