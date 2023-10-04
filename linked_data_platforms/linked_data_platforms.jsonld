@@ -1,8 +1,24 @@
 [
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Silk Linked Data Integration Framework"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.d.2",
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "en"
+      }
     ],
     "http://purl.org/dc/terms/creator": [
       {
@@ -12,6 +28,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@value": "Platforms (or applications) used to process RDF datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
       }
     ],
     "http://purl.org/dc/terms/hasFormat": [
@@ -28,6 +49,21 @@
         "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.ttl"
       }
     ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2018"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/zero/1.0"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "Linked Data Platforms"
@@ -35,7 +71,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N2f4258071f65426abb59f184b1a90de8"
+        "@id": "_:N04374149d3eb47e6bbef820ca1233a1c"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -57,39 +93,22 @@
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
       }
     ],
+    "https://schema.org/disambiguatingDescription": [
+      {
+        "@value": "RDF Vocabulary"
+      }
+    ],
     "https://schema.org/version": [
       {
-        "@value": "1-2-0"
+        "@value": "1-2-1"
       }
     ]
   },
   {
-    "@id": "_:N2f4258071f65426abb59f184b1a90de8",
+    "@id": "_:N04374149d3eb47e6bbef820ca1233a1c",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Microsoft Excel"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform006",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Silk Linked Data Integration Framework"
       }
     ]
   },
@@ -101,17 +120,6 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "SPARQL"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Fuseki"
       }
     ]
   },
@@ -134,6 +142,28 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "iMacros [Firefox plugin]"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform003",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Microsoft Excel"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Fuseki"
       }
     ]
   }
