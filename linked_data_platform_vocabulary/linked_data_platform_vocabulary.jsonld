@@ -10,9 +10,24 @@
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
     ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "en"
+      }
+    ],
     "http://purl.org/dc/terms/creator": [
       {
         "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
       }
     ],
     "http://purl.org/dc/terms/hasFormat": [
@@ -27,6 +42,21 @@
       },
       {
         "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2018"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/zero/1.0"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -56,9 +86,14 @@
         "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
       }
     ],
+    "https://schema.org/disambiguatingDescription": [
+      {
+        "@value": "RDF Vocabulary"
+      }
+    ],
     "https://schema.org/version": [
       {
-        "@value": "1-1-0"
+        "@value": "1-1-1"
       }
     ]
   }

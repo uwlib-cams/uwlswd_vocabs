@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" prefix="dct: http://purl.org/dc/terms/ ldproc: https://doi/org/10.6069/uwlib.55.b.2# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: https://schema.org/ void: http://rdfs.org/ns/void# xml: http://www.w3.org/XML/1998/namespace ">
+<html lang="en" prefix="dc: http://purl.org/dc/elements/1.1/ dct: http://purl.org/dc/terms/ ldproc: https://doi/org/10.6069/uwlib.55.b.2# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: https://schema.org/ void: http://rdfs.org/ns/void# xml: http://www.w3.org/XML/1998/namespace ">
     <head>
         <title>Linked Data Platform Vocabulary</title>
-        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link href="https://uwlib-cams.github.io/webviews/css/uwlswd.css" rel="stylesheet" type="text/css">
-        <script type="application/ld+json">
-        {
-        "@context" : "http://schema.org" ,
+        <script type="application/ld+json"> 
+        { 
+        "@context" : "http://schema.org" , 
         "@type" : "Dataset" , 
-        "@id" : "https://doi.org/10.6069/uwlib.55.b.1",
-        "name" : "Linked Data Platform Vocabulary" ,
-        "description" : "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets." ,
-        "creator" : {
-            "@type" : "Organization",
-            "@id" : "https://doi.org/10.6069/uwlib.55.A.3.6#UniversityofWashingtonLibraries" ,
-            "name" : "University of Washington Libraries" , 
-            "url" : "https://www.lib.washington.edu" ,
-            "sameAs" : [ "http://viaf.org/viaf/139541794" , "http://www.wikidata.org/entity/Q7896575" ] 
-           } ,
+        "@id" : "https://doi.org/10.6069/uwlib.55.b.1", 
+        "name" : "Linked Data Platform Vocabulary" , 
+        
+        "description" : "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets." , 
+            
+        "creator" : 
+            {
+            "@id" : "http://viaf.org/viaf/139541794", 
+            "name" : "University of Washington Libraries" ,  
+            "sameAs" : "http://viaf.org/viaf/139541794" 
+            } ,        
+                    
         "publisher" : {
-            "@type" : "Organization" , 
-            "@id" : "https://doi.org/10.6069/uwlib.55.A.3.6#UniversityofWashingtonLibraries" ,
-            "name" : "University of Washington Libraries" , 
-            "url" : "https://www.lib.washington.edu" , 
-            "sameAs" : [ "http://viaf.org/viaf/139541794" , "http://www.wikidata.org/entity/Q7896575" ] 
-           } ,
-        "datePublished" : "2018",
-        "inLanguage" : "en",
-        "encodingFormat" : "application/xhtml+xml" ,
-        "license" : "https://creativecommons.org/licenses/zero/1.0",
-        "version" : "1-1-0" 
-        }
+            "@id" : "http://viaf.org/viaf/139541794", 
+            "name" : "University of Washington Libraries" ,  
+            "sameAs" : "http://viaf.org/viaf/139541794"
+            } , 
+    
+        "datePublished" : "2018", 
+       
+        "inLanguage" : "en" ,  
+        "license" : "https://creativecommons.org/licenses/zero/1.0", 
+        
+        "version" : "1-1-1" , 
+             
+        "distribution" : [
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl" ,
+              "encodingFormat" : "text/turtle" 
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt" ,
+              "encodingFormat" : "application/n-triples"  
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld" ,
+              "encodingFormat" : "application/ld+json" 
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf" ,
+              "encodingFormat" : "application/n-triples" 
+            } 
+            ] , 
+        "encodingFormat" : "text/html" 
+        } 
     </script>
         <link rel="alternate" type="application/n-triples" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt">
         <link rel="alternate" type="application/rdf+xml" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf">
-        <link rel="alternate" type="application/turtle" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl">
+        <link rel="alternate" type="text/turtle" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl">
         <link rel="alternate" type="application/ld+json" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld">
     </head>
     <body about="https://doi.org/10.6069/uwlib.55.b.1">
@@ -66,7 +88,16 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:creator</a>
+                            <a href="http://purl.org/dc/elements/1.1/language">dc:language</a>
+                        </td>
+                        <td property="dc:language">en</td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/creator">dct:creator</a>
                         </td>
                         <td property="dct:creator" resource="http://viaf.org/viaf/139541794">
                             <a href="http://viaf.org/viaf/139541794">http://viaf.org/viaf/139541794</a>
@@ -77,7 +108,29 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/description">dct:description</a>
+                        </td>
+                        <td property="dct:description">RDFS vocabulary establishing classes and properties needed to describe platforms used
+                  to process RDF datasets. The word platforms represents applications, software, scripts,
+                  programs, etc. useful in processing the datasets.</td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/format">dct:format</a>
+                        </td>
+                        <td property="dct:format" resource="http://www.w3.org/ns/formats/RDFa">
+                            <a href="http://www.w3.org/ns/formats/RDFa">http://www.w3.org/ns/formats/RDFa</a>
+                        </td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
                         <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt">https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt</a>
@@ -88,18 +141,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:hasFormat</a>
-                        </td>
-                        <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html">
-                            <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html">https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html</a>
-                        </td>
-                    </tr>
-                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
-                        <td>
-                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
-                        </td>
-                        <td>
-                            <a href="http://purl.org/dc/terms/">dct:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
                         <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld">https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld</a>
@@ -110,7 +152,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
                         <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl">https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl</a>
@@ -121,7 +163,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
                         <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf">https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf</a>
@@ -132,7 +174,38 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/">dct:title</a>
+                            <a href="http://purl.org/dc/terms/issued">dct:issued</a>
+                        </td>
+                        <td property="dct:issued">2018</td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/license">dct:license</a>
+                        </td>
+                        <td property="dct:license" resource="https://creativecommons.org/licenses/zero/1.0">
+                            <a href="https://creativecommons.org/licenses/zero/1.0">https://creativecommons.org/licenses/zero/1.0</a>
+                        </td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/publisher">dct:publisher</a>
+                        </td>
+                        <td property="dct:publisher" resource="http://viaf.org/viaf/139541794">
+                            <a href="http://viaf.org/viaf/139541794">http://viaf.org/viaf/139541794</a>
+                        </td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://purl.org/dc/terms/title">dct:title</a>
                         </td>
                         <td property="dct:title">Linked Data Platform Vocabulary</td>
                     </tr>
@@ -141,7 +214,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="https://doi/org/10.6069/uwlib.55.b.2#">ldproc:containsEntity</a>
+                            <a href="https://doi/org/10.6069/uwlib.55.b.2#containsEntity">ldproc:containsEntity</a>
                         </td>
                         <td property="ldproc:containsEntity" resource="http://www.w3.org/2000/01/rdf-schema#Class">
                             <a href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a>
@@ -152,7 +225,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">rdf:type</a>
+                            <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a>
                         </td>
                         <td property="rdf:type" resource="http://rdfs.org/ns/void#Dataset">
                             <a href="http://rdfs.org/ns/void#Dataset">http://rdfs.org/ns/void#Dataset</a>
@@ -163,16 +236,25 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="https://schema.org/">schema:version</a>
+                            <a href="https://schema.org/disambiguatingDescription">schema:disambiguatingDescription</a>
                         </td>
-                        <td property="schema:version">1-1-0</td>
+                        <td property="schema:disambiguatingDescription">RDF Vocabulary</td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.1">
                         <td>
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://rdfs.org/ns/void#">void:feature</a>
+                            <a href="https://schema.org/version">schema:version</a>
+                        </td>
+                        <td property="schema:version">1-1-1</td>
+                    </tr>
+                    <tr about="https://doi.org/10.6069/uwlib.55.b.1">
+                        <td>
+                            <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
+                        </td>
+                        <td>
+                            <a href="http://rdfs.org/ns/void#feature">void:feature</a>
                         </td>
                         <td property="void:feature" resource="http://www.w3.org/ns/formats/N-Triples">
                             <a href="http://www.w3.org/ns/formats/N-Triples">http://www.w3.org/ns/formats/N-Triples</a>
@@ -183,7 +265,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://rdfs.org/ns/void#">void:feature</a>
+                            <a href="http://rdfs.org/ns/void#feature">void:feature</a>
                         </td>
                         <td property="void:feature" resource="http://www.w3.org/ns/formats/RDF_XML">
                             <a href="http://www.w3.org/ns/formats/RDF_XML">http://www.w3.org/ns/formats/RDF_XML</a>
@@ -194,7 +276,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://rdfs.org/ns/void#">void:feature</a>
+                            <a href="http://rdfs.org/ns/void#feature">void:feature</a>
                         </td>
                         <td property="void:feature" resource="http://www.w3.org/ns/formats/RDFa">
                             <a href="http://www.w3.org/ns/formats/RDFa">http://www.w3.org/ns/formats/RDFa</a>
@@ -205,7 +287,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://rdfs.org/ns/void#">void:feature</a>
+                            <a href="http://rdfs.org/ns/void#feature">void:feature</a>
                         </td>
                         <td property="void:feature" resource="http://www.w3.org/ns/formats/Turtle">
                             <a href="http://www.w3.org/ns/formats/Turtle">http://www.w3.org/ns/formats/Turtle</a>
@@ -216,7 +298,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1">https://doi.org/10.6069/uwlib.55.b.1</a>
                         </td>
                         <td>
-                            <a href="http://rdfs.org/ns/void#">void:feature</a>
+                            <a href="http://rdfs.org/ns/void#feature">void:feature</a>
                         </td>
                         <td property="void:feature" resource="http://www.w3.org/ns/formats/JSON-LD">
                             <a href="http://www.w3.org/ns/formats/JSON-LD">http://www.w3.org/ns/formats/JSON-LD</a>
@@ -227,7 +309,7 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.1#Platform">https://doi.org/10.6069/uwlib.55.b.1#Platform</a>
                         </td>
                         <td>
-                            <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">rdf:type</a>
+                            <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a>
                         </td>
                         <td property="rdf:type" resource="http://www.w3.org/2000/01/rdf-schema#Class">
                             <a href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a>
@@ -240,6 +322,7 @@
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf" download="" target="_blank" rel="noopener noreferrer">Download RDF/XML</a>
             <pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:dct="http://purl.org/dc/terms/"
    xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -249,18 +332,25 @@
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1"&gt;
     &lt;rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/&gt;
     &lt;dct:creator rdf:resource="http://viaf.org/viaf/139541794"/&gt;
+    &lt;dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/&gt;
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt"/&gt;
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html"/&gt;
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld"/&gt;
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"/&gt;
+    &lt;dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
     &lt;dct:title&gt;Linked Data Platform Vocabulary&lt;/dct:title&gt;
+    &lt;dct:description&gt;RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets.&lt;/dct:description&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/&gt;
     &lt;ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/&gt;
-    &lt;schema:version&gt;1-1-0&lt;/schema:version&gt;
+    &lt;schema:disambiguatingDescription&gt;RDF Vocabulary&lt;/schema:disambiguatingDescription&gt;
+    &lt;dct:issued&gt;2018&lt;/dct:issued&gt;
+    &lt;dc:language&gt;en&lt;/dc:language&gt;
+    &lt;dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/&gt;
+    &lt;schema:version&gt;1-1-1&lt;/schema:version&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1#Platform"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/&gt;
@@ -270,7 +360,8 @@
         </div>
         <div id="ttl" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl" download="" target="_blank" rel="noopener noreferrer">Download Turtle</a>
-            <pre>@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
+            <pre>@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
 @prefix ldproc: &lt;https://doi/org/10.6069/uwlib.55.b.2#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix schema: &lt;https://schema.org/&gt; .
@@ -279,11 +370,17 @@
 &lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; a rdfs:Class .
 
 &lt;https://doi.org/10.6069/uwlib.55.b.1&gt; a void:Dataset ;
+    dc:language "en" ;
     dct:creator &lt;http://viaf.org/viaf/139541794&gt; ;
+    dct:description "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets." ;
+    dct:format &lt;http://www.w3.org/ns/formats/Turtle&gt; ;
     dct:hasFormat &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf&gt; ;
+    dct:issued "2018" ;
+    dct:license &lt;https://creativecommons.org/licenses/zero/1.0&gt; ;
+    dct:publisher &lt;http://viaf.org/viaf/139541794&gt; ;
     dct:title "Linked Data Platform Vocabulary" ;
     void:feature &lt;http://www.w3.org/ns/formats/JSON-LD&gt;,
         &lt;http://www.w3.org/ns/formats/N-Triples&gt;,
@@ -291,27 +388,35 @@
         &lt;http://www.w3.org/ns/formats/RDFa&gt;,
         &lt;http://www.w3.org/ns/formats/Turtle&gt; ;
     ldproc:containsEntity rdfs:Class ;
-    schema:version "1-1-0" .
+    schema:disambiguatingDescription "RDF Vocabulary" ;
+    schema:version "1-1-1" .
 
 </pre>
         </div>
         <div id="nt" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt" download="" target="_blank" rel="noopener noreferrer">Download N-Triples</a>
-            <pre>&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Platform Vocabulary" .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;https://schema.org/version&gt; "1-1-0" .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
+            <pre>&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Platform Vocabulary" .
 &lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;https://doi/org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/JSON-LD&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/issued&gt; "2018" .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/description&gt; "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets." .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;https://schema.org/version&gt; "1-1-1" .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/license&gt; &lt;https://creativecommons.org/licenses/zero/1.0&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/publisher&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/elements/1.1/language&gt; "en" .
 &lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;https://schema.org/disambiguatingDescription&gt; "RDF Vocabulary" .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1#Platform&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2000/01/rdf-schema#Class&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://purl.org/dc/terms/format&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.1&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/JSON-LD&gt; .
 </pre>
         </div>
         <div id="json" class="tabcontent">
@@ -328,9 +433,24 @@
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
     ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "en"
+      }
+    ],
     "http://purl.org/dc/terms/creator": [
       {
         "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
       }
     ],
     "http://purl.org/dc/terms/hasFormat": [
@@ -345,6 +465,21 @@
       },
       {
         "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2018"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/zero/1.0"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -374,9 +509,14 @@
         "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
       }
     ],
+    "https://schema.org/disambiguatingDescription": [
+      {
+        "@value": "RDF Vocabulary"
+      }
+    ],
     "https://schema.org/version": [
       {
-        "@value": "1-1-0"
+        "@value": "1-1-1"
       }
     ]
   }
