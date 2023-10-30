@@ -29,13 +29,17 @@
 
 <https://doi.org/10.6069/uwlib.55.d.1> a void:Dataset ;
     dc:creator "University of Washington Libraries"@en ;
+    dc:language "en-US" ;
     dc:publisher "University of Washington Libraries"@en ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "RDF dataset describing classes used in University of Washington Libraries RDF data."@en ;
+    dct:format <http://www.w3.org/ns/formats/Turtle> ;
     dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.html>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.jsonld>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.nt>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.rdf> ;
+    dct:issued "2018" ;
+    dct:license <https://creativecommons.org/licenses/zero/1.0/> ;
     dct:publisher <http://viaf.org/viaf/139541794> ;
     dct:title "University of Washington Libraries rdfs:Class Definitions"@en ;
     void:classPartition [ void:class rdfs:Class ] ;
@@ -44,5 +48,6 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdfs:Class ;
-    schema:version "1-2-1" .
+    schema:disambiguatingDescription "RDF Vocabulary" ;
+    schema:version "1-2-2" .
 
