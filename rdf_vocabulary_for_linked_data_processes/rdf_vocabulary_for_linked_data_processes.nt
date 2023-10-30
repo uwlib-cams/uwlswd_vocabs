@@ -1,68 +1,70 @@
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.rdf> .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#doman> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection." .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.ttl> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/elements/1.1/creator> "University of Washington Libraries"@en .
-<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#range> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
-<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#comment> "Value must be IRIs for properties used to relate entities in the source dataset to entities in external datasets. Note uwrecon:linkPredicate should be favored over void:linkPredicate only when the predicate is not part of a graph that is a void:Linkset." .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is an http identifier for a target vocabulary, prefereably an IRI. The target vocabulary is parsed in a systematic and comprehesive matching process to find additional descriptions of entities already described in the source dataset. Note that uwrecon:targetVocab is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicates." .
-<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/language> "English" .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#label> "Target Datasets (Machine Matching)" .
-<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a textual description of data processing, especially during matching tasks, that may be pertinent to use of the dataset." .
-<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDFa> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/issued> "2018" .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/creator> <http://viaf.org/viaf/139541794> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
-<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Data Harvest Source" .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/alternative> "Reconciliation Vocabulary" .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#label> "Target Datasets (Manual Matching)" .
-<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://purl.org/dc/dcmitype/Collection> .
-<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/title> "RDF Vocabulary for Linked Data Processes" .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/elements/1.1/publisher> "University of Washington Libraries"@en .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.jsonld> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
-<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is the name of any platform used, especially for matchng tasks, to process the dataset." .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 <https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#comment> "Value should be an identifier for a target vocabulary, prefereably an IRI. The IRI is extracted from the target vocabulary to provide an additional description for a single resource already described in the source dataset, therefore not extracted as part of a comprehesive matching process. This property was created in addition to uwrecon:targetVocab in order to distinguish when a comprehensive matching process was or was not executed. Note that uwrecon:targetVocabSecondary is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicate." .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#label> "Link Predicates" .
-<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Entities in Dataset" .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a type of entity in the dataset. Repeat the property for each type. Use in conjunction with void:classPartition when applicable. Distinguished from void:classPartition in that it asserts that an entity is present in a dataset even if it is not the basis for a void:classPartition." .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a textual description of the use of properties relating entities in the source dataset." .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html> .
-<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
-_:N2c193108a39a4e05af63977a853f97de <http://rdfs.org/ns/void#class> <http://www.w3.org/2000/01/rdf-schema#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/description> "Vocabulary for describing processes run on linked data datasets." .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/publisher> <http://viaf.org/viaf/139541794> .
-<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Notes" .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#doman> <http://rdfs.org/ns/void#Dataset> .
-<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is the version number of dataset after it was de-duped" .
-<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#label> "Link Predicate Notes" .
-<https://doi.org/10.6069/uwlib.55.b.2> <https://schema.org/version> "1-5-1" .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/license> <http://creativecommons.org/publicdomain/zero/1.0/> .
-<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform used for processing tasks" .
-<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#label> "De-dupicated" .
-<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#classPartition> _:N2c193108a39a4e05af63977a853f97de .
-<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://doi.org/10.6069/uwlib.55.b.2> <https://schema.org/disambiguatingDescription> "RDF Vocabulary" .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
 <https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection." .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/description> "Vocabulary for describing processes run on linked data datasets." .
+<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is the version number of dataset after it was de-duped" .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDFa> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/title> "RDF Vocabulary for Linked Data Processes" .
+<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Notes" .
+<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://purl.org/dc/dcmitype/Collection> .
+_:Nffa3086046a64dcf9eed699382456cc6 <http://rdfs.org/ns/void#class> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.ttl> .
+<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/creator> <http://viaf.org/viaf/139541794> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/alternative> "Reconciliation Vocabulary" .
+<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.jsonld> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Entities in Dataset" .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/2000/01/rdf-schema#label> "Target Datasets (Manual Matching)" .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://doi.org/10.6069/uwlib.55.b.2> <https://schema.org/version> "1-6-0" .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#label> "Link Predicate Notes" .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/elements/1.1/publisher> "University of Washington Libraries"@en .
+<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#range> <https://doi.org/10.6069/uwlib.55.b.1#Platform> .
+<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#classPartition> _:Nffa3086046a64dcf9eed699382456cc6 .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/format> <http://www.w3.org/ns/formats/N-Triples> .
+<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#label> "De-dupicated" .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/issued> "2018" .
+<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a type of entity in the dataset. Repeat the property for each type. Use in conjunction with void:classPartition when applicable. Distinguished from void:classPartition in that it asserts that an entity is present in a dataset even if it is not the basis for a void:classPartition." .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#comment> "Value must be IRIs for properties used to relate entities in the source dataset to entities in external datasets. Note uwrecon:linkPredicate should be favored over void:linkPredicate only when the predicate is not part of a graph that is a void:Linkset." .
+<https://doi.org/10.6069/uwlib.55.b.2#containsEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/elements/1.1/language> "en-US" .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html> .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Data Harvest Source" .
+<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/2000/01/rdf-schema#label> "Link Predicates" .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/hasFormat> <https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.rdf> .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a textual description of the use of properties relating entities in the source dataset." .
+<https://doi.org/10.6069/uwlib.55.b.2#linkPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2#processingNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is a textual description of data processing, especially during matching tasks, that may be pertinent to use of the dataset." .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/publisher> <http://viaf.org/viaf/139541794> .
+<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform used for processing tasks" .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/elements/1.1/creator> "University of Washington Libraries"@en .
+<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is an http identifier for a target vocabulary, prefereably an IRI. The target vocabulary is parsed in a systematic and comprehesive matching process to find additional descriptions of entities already described in the source dataset. Note that uwrecon:targetVocab is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicates." .
+<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://doi.org/10.6069/uwlib.55.b.2> <http://purl.org/dc/terms/subject> <http://id.loc.gov/authorities/subjects/sh2013002090> .
+<https://doi.org/10.6069/uwlib.55.b.2#targetVocab> <http://www.w3.org/2000/01/rdf-schema#label> "Target Datasets (Machine Matching)" .
+<https://doi.org/10.6069/uwlib.55.b.2#deDuped> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/ns/void#Dataset> .
+<https://doi.org/10.6069/uwlib.55.b.2#platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is the name of any platform used, especially for matchng tasks, to process the dataset." .

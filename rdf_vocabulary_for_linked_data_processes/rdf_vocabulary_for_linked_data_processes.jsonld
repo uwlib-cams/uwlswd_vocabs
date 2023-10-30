@@ -1,5 +1,31 @@
 [
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.2#targetVocab",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Value is an http identifier for a target vocabulary, prefereably an IRI. The target vocabulary is parsed in a systematic and comprehesive matching process to find additional descriptions of entities already described in the source dataset. Note that uwrecon:targetVocab is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicates."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdfs.org/ns/void#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Target Datasets (Machine Matching)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -26,6 +52,58 @@
     ]
   },
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.2#containsEntity",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Value is a type of entity in the dataset. Repeat the property for each type. Use in conjunction with void:classPartition when applicable. Distinguished from void:classPartition in that it asserts that an entity is present in a dataset even if it is not the basis for a void:classPartition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdfs.org/ns/void#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entities in Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.2#deDuped",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Value is the version number of dataset after it was de-duped"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdfs.org/ns/void#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "De-dupicated"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.b.2",
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
@@ -34,6 +112,11 @@
       {
         "@language": "en",
         "@value": "University of Washington Libraries"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "en-US"
       }
     ],
     "http://purl.org/dc/elements/1.1/publisher": [
@@ -57,6 +140,11 @@
         "@value": "Vocabulary for describing processes run on linked data datasets."
       }
     ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
+      }
+    ],
     "http://purl.org/dc/terms/hasFormat": [
       {
         "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html"
@@ -74,11 +162,6 @@
     "http://purl.org/dc/terms/issued": [
       {
         "@value": "2018"
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "English"
       }
     ],
     "http://purl.org/dc/terms/license": [
@@ -103,7 +186,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N2c193108a39a4e05af63977a853f97de"
+        "@id": "_:Nffa3086046a64dcf9eed699382456cc6"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -120,14 +203,19 @@
         "@id": "http://www.w3.org/ns/formats/Turtle"
       }
     ],
+    "https://schema.org/disambiguatingDescription": [
+      {
+        "@value": "RDF Vocabulary"
+      }
+    ],
     "https://schema.org/version": [
       {
-        "@value": "1-5-1"
+        "@value": "1-6-0"
       }
     ]
   },
   {
-    "@id": "_:N2c193108a39a4e05af63977a853f97de",
+    "@id": "_:Nffa3086046a64dcf9eed699382456cc6",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/2000/01/rdf-schema#Property"
@@ -161,84 +249,6 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Value should be an identifier for a target vocabulary, prefereably an IRI. The IRI is extracted from the target vocabulary to provide an additional description for a single resource already described in the source dataset, therefore not extracted as part of a comprehesive matching process. This property was created in addition to uwrecon:targetVocab in order to distinguish when a comprehensive matching process was or was not executed. Note that uwrecon:targetVocabSecondary is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicate."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#doman": [
-      {
-        "@id": "http://rdfs.org/ns/void#Dataset"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Target Datasets (Manual Matching)"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.b.2#containsEntity",
-    "@type": [
-      "http://www.w3.org/2000/01/rdf-schema#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Value is a type of entity in the dataset. Repeat the property for each type. Use in conjunction with void:classPartition when applicable. Distinguished from void:classPartition in that it asserts that an entity is present in a dataset even if it is not the basis for a void:classPartition."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "@id": "http://rdfs.org/ns/void#Dataset"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Entities in Dataset"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/2000/01/rdf-schema#Class"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.b.2#platform",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Value is the name of any platform used, especially for matchng tasks, to process the dataset."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "@id": "http://rdfs.org/ns/void#Dataset"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Platform used for processing tasks"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-      }
-    ]
-  },
-  {
     "@id": "https://doi.org/10.6069/uwlib.55.b.2#linkPredicate",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -261,32 +271,6 @@
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.b.2#targetVocab",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Value is an http identifier for a target vocabulary, prefereably an IRI. The target vocabulary is parsed in a systematic and comprehesive matching process to find additional descriptions of entities already described in the source dataset. Note that uwrecon:targetVocab is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicates."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#doman": [
-      {
-        "@id": "http://rdfs.org/ns/void#Dataset"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Target Datasets (Machine Matching)"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"
       }
     ]
   },
@@ -317,13 +301,13 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.b.2#deDuped",
+    "@id": "https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@value": "Value is the version number of dataset after it was de-duped"
+        "@value": "Value should be an identifier for a target vocabulary, prefereably an IRI. The IRI is extracted from the target vocabulary to provide an additional description for a single resource already described in the source dataset, therefore not extracted as part of a comprehesive matching process. This property was created in addition to uwrecon:targetVocab in order to distinguish when a comprehensive matching process was or was not executed. Note that uwrecon:targetVocabSecondary is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicate."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
@@ -333,12 +317,38 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "De-dupicated"
+        "@value": "Target Datasets (Manual Matching)"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.b.2#platform",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Value is the name of any platform used, especially for matchng tasks, to process the dataset."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdfs.org/ns/void#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Platform used for processing tasks"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.b.1#Platform"
       }
     ]
   }
