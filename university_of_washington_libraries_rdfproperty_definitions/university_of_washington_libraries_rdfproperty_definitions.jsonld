@@ -1,5 +1,121 @@
 [
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.3",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@language": "en",
+        "@value": "University of Washington Libraries"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "en-US"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "University of Washington Libraries"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://www.w3.org/ns/formats/JSON-LD"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html"
+      },
+      {
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf"
+      },
+      {
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.nt"
+      },
+      {
+        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2018"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/zero/1.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://viaf.org/viaf/139541794"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "University of Washington Libraries rdf:Property Definitions"
+      }
+    ],
+    "http://rdfs.org/ns/void#classPartition": [
+      {
+        "@id": "_:N23647b4308194ee0b9931ec8f4279c57"
+      }
+    ],
+    "http://rdfs.org/ns/void#feature": [
+      {
+        "@id": "http://www.w3.org/ns/formats/N-Triples"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/RDF_XML"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/RDFa"
+      },
+      {
+        "@id": "http://www.w3.org/ns/formats/Turtle"
+      }
+    ],
+    "https://doi.org/10.6069/uwlib.55.b.2#containsEntity": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ],
+    "https://schema.org/disambiguatingDescription": [
+      {
+        "@value": "RDF Vocabulary"
+      }
+    ],
+    "https://schema.org/version": [
+      {
+        "@value": "1-2-1"
+      }
+    ]
+  },
+  {
+    "@id": "_:N23647b4308194ee0b9931ec8f4279c57",
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.d.3#inDigiColl",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -33,97 +149,6 @@
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
       {
         "@id": "http://purl.org/dc/terms/isReferencedBy"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.3",
-    "@type": [
-      "http://rdfs.org/ns/void#Dataset"
-    ],
-    "http://purl.org/dc/elements/1.1/creator": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
-      }
-    ],
-    "http://purl.org/dc/elements/1.1/publisher": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
-      }
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "http://viaf.org/viaf/139541794"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."
-      }
-    ],
-    "http://purl.org/dc/terms/hasFormat": [
-      {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html"
-      },
-      {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf"
-      },
-      {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.nt"
-      },
-      {
-        "@id": "https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "http://viaf.org/viaf/139541794"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries rdf:Property Definitions"
-      }
-    ],
-    "http://rdfs.org/ns/void#classPartition": [
-      {
-        "@id": "_:N5ee122ddb6534df6bcfb485933b1b282"
-      }
-    ],
-    "http://rdfs.org/ns/void#feature": [
-      {
-        "@id": "http://www.w3.org/ns/formats/N-Triples"
-      },
-      {
-        "@id": "http://www.w3.org/ns/formats/RDF_XML"
-      },
-      {
-        "@id": "http://www.w3.org/ns/formats/RDFa"
-      },
-      {
-        "@id": "http://www.w3.org/ns/formats/Turtle"
-      }
-    ],
-    "https://doi.org/10.6069/uwlib.55.b.2#containsEntity": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ],
-    "https://schema.org/version": [
-      {
-        "@value": "1-2-0"
-      }
-    ]
-  },
-  {
-    "@id": "_:N5ee122ddb6534df6bcfb485933b1b282",
-    "http://rdfs.org/ns/void#class": [
-      {
-        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
       }
     ]
   }
