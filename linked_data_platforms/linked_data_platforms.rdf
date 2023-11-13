@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dct="http://purl.org/dc/terms/"
    xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -10,52 +10,52 @@
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:title>Linked Data Platforms</dcterms:title>
-    <dcterms:description>Platforms (or applications) used to process RDF datasets.</dcterms:description>
+    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dct:title>Linked Data Platforms</dct:title>
+    <dct:description>Platforms (or applications) used to process RDF datasets.</dct:description>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <void:classPartition rdf:nodeID="N04374149d3eb47e6bbef820ca1233a1c"/>
-    <dcterms:issued>2018</dcterms:issued>
+    <void:classPartition rdf:nodeID="Nb3b0a78d283a46489a64792f50a4ae98"/>
+    <dct:issued>2018</dct:issued>
     <schema:version>1-2-1</schema:version>
     <dc:language>en</dc:language>
-    <dcterms:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
-    <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.ttl"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.nt"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.jsonld"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
+    <dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.ttl"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.nt"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.jsonld"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html"/>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Fuseki</rdfs:label>
+    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
+  <rdf:Description rdf:nodeID="Nb3b0a78d283a46489a64792f50a4ae98">
+    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>SPARQL</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N04374149d3eb47e6bbef820ca1233a1c">
-    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>Microsoft Excel</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Fuseki</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>Open Refine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

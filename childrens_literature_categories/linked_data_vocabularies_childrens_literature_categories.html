@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" prefix="dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ ldproc: https://doi/org/10.6069/uwlib.55.b.2# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: https://schema.org/ skos: http://www.w3.org/2004/02/skos/core# void: http://rdfs.org/ns/void# xml: http://www.w3.org/XML/1998/namespace ">
+<html lang="en" prefix="dc: http://purl.org/dc/elements/1.1/ dct: http://purl.org/dc/terms/ ldproc: https://doi/org/10.6069/uwlib.55.b.2# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: https://schema.org/ skos: http://www.w3.org/2004/02/skos/core# void: http://rdfs.org/ns/void# xml: http://www.w3.org/XML/1998/namespace ">
     <head>
         <title>Linked Data Vocabularies: Children's Literature Categories</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,28 +10,51 @@
         "@type" : "Dataset" , 
         "@id" : "https://doi.org/10.6069/uwlib.55.b.3", 
         "name" : "Linked Data Vocabularies: Children's Literature Categories" , 
-        
-        "alternateName" : "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" , 
-        
-        "description" : [ 
+         
+        "alternateName" : "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ,
+        "description" : [
             "Categories for describing types of historical children's literature" , 
-            "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html." , 
+            "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html."
             ] , 
-        "creator" : {
+        "creator" : 
+            {
             "@id" : "http://viaf.org/viaf/139541794", 
-            "name" : "University of Washington Libraries"
-            } , 
-    
+            "name" : "University of Washington Libraries" ,  
+            "sameAs" : "http://viaf.org/viaf/139541794" 
+            } ,        
+                    
         "publisher" : {
             "@id" : "http://viaf.org/viaf/139541794", 
-            "name" : "University of Washington Libraries"
+            "name" : "University of Washington Libraries" ,  
+            "sameAs" : "http://viaf.org/viaf/139541794"
             } , 
     
         "datePublished" : "2018", 
-        "inLanguage" : "en-US", 
-        "encodingFormat" : "text/html" ,  
+       
+        "inLanguage" : "en-US" ,  
         "license" : "https://creativecommons.org/licenses/by-nc/4.0", 
-        "version" : "1-2-1" 
+        
+        "version" : "1-2-1" , 
+             
+        "distribution" : [
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl" ,
+              "encodingFormat" : "text/turtle" 
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt" ,
+              "encodingFormat" : "application/n-triples"  
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld" ,
+              "encodingFormat" : "application/ld+json" 
+            } , 
+            { "@type" : "DataDownload" , 
+              "url" : "https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf" ,
+              "encodingFormat" : "application/rdf+xml"
+            } 
+            ] , 
+        "encodingFormat" : "text/html" 
         } 
     </script>
         <link rel="alternate" type="application/n-triples" href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt">
@@ -41,6 +64,7 @@
     </head>
     <body about="https://doi.org/10.6069/uwlib.55.b.3">
         <script type="text/javascript" src="https://uwlib-cams.github.io/webviews/js/uwlswd.js"></script>
+        <a class="return" href="https://uwlib-cams.github.io/uwlswd/">return to all UWLSWD datasets and vocabularies</a>
         <h1>Linked Data Vocabularies: Children's Literature Categories</h1>
         <h2 id="altTitle">(University of Washington Libraries Linked Data Vocabularies: Childrens Literature
          Categories)</h2>
@@ -81,9 +105,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/alternative">dcterms:alternative</a>
+                            <a href="http://purl.org/dc/terms/alternative">dct:alternative</a>
                         </td>
-                        <td property="dcterms:alternative">University of Washington Libraries Linked Data Vocabularies: Childrens Literature
+                        <td property="dct:alternative">University of Washington Libraries Linked Data Vocabularies: Childrens Literature
                   Categories</td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.3">
@@ -91,9 +115,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/creator">dcterms:creator</a>
+                            <a href="http://purl.org/dc/terms/creator">dct:creator</a>
                         </td>
-                        <td property="dcterms:creator" resource="http://viaf.org/viaf/139541794">
+                        <td property="dct:creator" resource="http://viaf.org/viaf/139541794">
                             <a href="http://viaf.org/viaf/139541794">http://viaf.org/viaf/139541794</a>
                         </td>
                     </tr>
@@ -102,18 +126,18 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/description">dcterms:description</a>
+                            <a href="http://purl.org/dc/terms/description">dct:description</a>
                         </td>
-                        <td property="dcterms:description">Categories for describing types of historical children's literature</td>
+                        <td property="dct:description">Categories for describing types of historical children's literature</td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.3">
                         <td>
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/description">dcterms:description</a>
+                            <a href="http://purl.org/dc/terms/description">dct:description</a>
                         </td>
-                        <td property="dcterms:description">RDF vocabulary derived from a thesaurus intended to provide terms for describing categories
+                        <td property="dct:description">RDF vocabulary derived from a thesaurus intended to provide terms for describing categories
                   of historical children's literature. The thesaurus was constructed for use in describing
                   the University of Washington Libraries' Historical Children's Literature Collection
                   which can be seen at https://content.lib.washington.edu/childrensweb/index.html.</td>
@@ -123,9 +147,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/format">dcterms:format</a>
+                            <a href="http://purl.org/dc/terms/format">dct:format</a>
                         </td>
-                        <td property="dcterms:format" resource="http://www.w3.org/ns/formats/RDFa">
+                        <td property="dct:format" resource="http://www.w3.org/ns/formats/RDFa">
                             <a href="http://www.w3.org/ns/formats/RDFa">http://www.w3.org/ns/formats/RDFa</a>
                         </td>
                     </tr>
@@ -134,9 +158,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/hasFormat">dcterms:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
-                        <td property="dcterms:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl">
+                        <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl">https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl</a>
                         </td>
                     </tr>
@@ -145,9 +169,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/hasFormat">dcterms:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
-                        <td property="dcterms:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt">
+                        <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt">https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt</a>
                         </td>
                     </tr>
@@ -156,9 +180,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/hasFormat">dcterms:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
-                        <td property="dcterms:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld">
+                        <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld">https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld</a>
                         </td>
                     </tr>
@@ -167,9 +191,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/hasFormat">dcterms:hasFormat</a>
+                            <a href="http://purl.org/dc/terms/hasFormat">dct:hasFormat</a>
                         </td>
-                        <td property="dcterms:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf">
+                        <td property="dct:hasFormat" resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf">
                             <a href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf">https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf</a>
                         </td>
                     </tr>
@@ -178,18 +202,18 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/issued">dcterms:issued</a>
+                            <a href="http://purl.org/dc/terms/issued">dct:issued</a>
                         </td>
-                        <td property="dcterms:issued">2018</td>
+                        <td property="dct:issued">2018</td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.3">
                         <td>
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/license">dcterms:license</a>
+                            <a href="http://purl.org/dc/terms/license">dct:license</a>
                         </td>
-                        <td property="dcterms:license" resource="https://creativecommons.org/licenses/by-nc/4.0">
+                        <td property="dct:license" resource="https://creativecommons.org/licenses/by-nc/4.0">
                             <a href="https://creativecommons.org/licenses/by-nc/4.0">https://creativecommons.org/licenses/by-nc/4.0</a>
                         </td>
                     </tr>
@@ -198,9 +222,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>
+                            <a href="http://purl.org/dc/terms/publisher">dct:publisher</a>
                         </td>
-                        <td property="dcterms:publisher" resource="http://viaf.org/viaf/139541794">
+                        <td property="dct:publisher" resource="http://viaf.org/viaf/139541794">
                             <a href="http://viaf.org/viaf/139541794">http://viaf.org/viaf/139541794</a>
                         </td>
                     </tr>
@@ -209,9 +233,9 @@
                             <a href="https://doi.org/10.6069/uwlib.55.b.3">https://doi.org/10.6069/uwlib.55.b.3</a>
                         </td>
                         <td>
-                            <a href="http://purl.org/dc/terms/title">dcterms:title</a>
+                            <a href="http://purl.org/dc/terms/title">dct:title</a>
                         </td>
-                        <td property="dcterms:title">Linked Data Vocabularies: Children's Literature Categories</td>
+                        <td property="dct:title">Linked Data Vocabularies: Children's Literature Categories</td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.3">
                         <td>
@@ -260,8 +284,8 @@
                         <td>
                             <a href="http://rdfs.org/ns/void#classPartition">void:classPartition</a>
                         </td>
-                        <td property="void:classPartition" resource="[_:N328b8ca3f7a145c594a058b91d13a7db]">
-                            <a href="#N328b8ca3f7a145c594a058b91d13a7db">_:N328b8ca3f7a145c594a058b91d13a7db</a>
+                        <td property="void:classPartition" resource="[_:N8b0856b972904668a15dce1df0e9b166]">
+                            <a href="#N8b0856b972904668a15dce1df0e9b166">_:N8b0856b972904668a15dce1df0e9b166</a>
                         </td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.b.3">
@@ -1039,8 +1063,8 @@
                         </td>
                         <td property="skos:preflabel">Trades and Occupations</td>
                     </tr>
-                    <tr id="N328b8ca3f7a145c594a058b91d13a7db" about="[_:N328b8ca3f7a145c594a058b91d13a7db]">
-                        <td>_:N328b8ca3f7a145c594a058b91d13a7db</td>
+                    <tr id="N8b0856b972904668a15dce1df0e9b166" about="[_:N8b0856b972904668a15dce1df0e9b166]">
+                        <td>_:N8b0856b972904668a15dce1df0e9b166</td>
                         <td>
                             <a href="http://rdfs.org/ns/void#class">void:class</a>
                         </td>
@@ -1056,150 +1080,20 @@
             <pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;rdf:RDF
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dct="http://purl.org/dc/terms/"
    xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:schema="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:void="http://rdfs.org/ns/void#"
 &gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#cautionarytales"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Cautionary tales&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;Historical and geographic works&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#readers"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Readers&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#objectbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Object books&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Home economics and domestic life&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#copybooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Copybooks&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3"&gt;
-    &lt;rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/&gt;
-    &lt;dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/&gt;
-    &lt;dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/&gt;
-    &lt;dcterms:title&gt;Linked Data Vocabularies: Children's Literature Categories&lt;/dcterms:title&gt;
-    &lt;dcterms:alternative&gt;University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories&lt;/dcterms:alternative&gt;
-    &lt;dcterms:description&gt;Categories for describing types of historical children's literature&lt;/dcterms:description&gt;
-    &lt;dcterms:description&gt;RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html.&lt;/dcterms:description&gt;
-    &lt;dcterms:issued&gt;2018&lt;/dcterms:issued&gt;
-    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/&gt;
-    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/&gt;
-    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
-    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/&gt;
-    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/&gt;
-    &lt;void:classPartition rdf:nodeID="N328b8ca3f7a145c594a058b91d13a7db"/&gt;
-    &lt;ldproc:containsEntity rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;dc:language&gt;en-US&lt;/dc:language&gt;
-    &lt;schema:version&gt;1-2-1&lt;/schema:version&gt;
-    &lt;dcterms:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0"/&gt;
-    &lt;dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl"/&gt;
-    &lt;dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt"/&gt;
-    &lt;dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld"/&gt;
-    &lt;dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html"/&gt;
-    &lt;schema:disambiguatingDescription&gt;SKOS Concept Scheme&lt;/schema:disambiguatingDescription&gt;
-    &lt;dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#peterparley"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Peter Parley&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Alphabet books&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#hornbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Hornbooks&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fairytales"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Fairytales&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Money and accounting&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Health and hygiene&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#textbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Textbooks&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fables"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Fables&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Bibles and religious works&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Geography and travel&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#encyclopedias"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Encyclopedias&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#chapbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Chapbooks&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#periodicals"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;Periodicals&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moralinstruction"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Moral instruction&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#spellingbooks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Spelling books&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#politicalworks"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Political works&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#socialetiquette"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Social etiquette&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#grammars"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Grammars&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Discrimination and bigotry&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Nursery rhymes&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#naturalsciences"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Natural sciences&lt;/skos:preflabel&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#dictionaries"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Dictionaries&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
@@ -1209,32 +1103,162 @@
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;Primers (Instructional books)&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#cautionarytales"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Cautionary tales&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moralinstruction"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Moral instruction&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#activitybooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Activity books&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#readers"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Readers&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;Manners and social etiquette&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric"&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#hornbooks"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Elocution and rhetoric&lt;/skos:preflabel&gt;
+    &lt;skos:preflabel&gt;Hornbooks&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:nodeID="N328b8ca3f7a145c594a058b91d13a7db"&gt;
-    &lt;void:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#politicalworks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Political works&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Home economics and domestic life&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Alphabet books&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#copybooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Copybooks&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#encyclopedias"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Encyclopedias&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#naturalsciences"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Natural sciences&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#spellingbooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Spelling books&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#objectbooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Object books&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3"&gt;
+    &lt;rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/&gt;
+    &lt;dct:creator rdf:resource="http://viaf.org/viaf/139541794"/&gt;
+    &lt;dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/&gt;
+    &lt;dct:title&gt;Linked Data Vocabularies: Children's Literature Categories&lt;/dct:title&gt;
+    &lt;dct:alternative&gt;University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories&lt;/dct:alternative&gt;
+    &lt;dct:description&gt;Categories for describing types of historical children's literature&lt;/dct:description&gt;
+    &lt;dct:description&gt;RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html.&lt;/dct:description&gt;
+    &lt;dct:issued&gt;2018&lt;/dct:issued&gt;
+    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/&gt;
+    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/&gt;
+    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
+    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/&gt;
+    &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/&gt;
+    &lt;void:classPartition rdf:nodeID="N8b0856b972904668a15dce1df0e9b166"/&gt;
+    &lt;ldproc:containsEntity rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;dc:language&gt;en-US&lt;/dc:language&gt;
+    &lt;schema:version&gt;1-2-1&lt;/schema:version&gt;
+    &lt;dct:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0"/&gt;
+    &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl"/&gt;
+    &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt"/&gt;
+    &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld"/&gt;
+    &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html"/&gt;
+    &lt;schema:disambiguatingDescription&gt;SKOS Concept Scheme&lt;/schema:disambiguatingDescription&gt;
+    &lt;dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fairytales"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Fairytales&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#grammars"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Grammars&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#peterparley"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Peter Parley&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#chapbooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Chapbooks&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Money and accounting&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#textbooks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Textbooks&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;Trades and Occupations&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#battledores"&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Battledores&lt;/skos:preflabel&gt;
+    &lt;skos:preflabel&gt;Elocution and rhetoric&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Nursery rhymes&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:nodeID="N8b0856b972904668a15dce1df0e9b166"&gt;
+    &lt;void:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#socialetiquette"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Social etiquette&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#dictionaries"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Dictionaries&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#history"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
     &lt;skos:preflabel&gt;History&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#activitybooks"&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry"&gt;
     &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
-    &lt;skos:preflabel&gt;Activity books&lt;/skos:preflabel&gt;
+    &lt;skos:preflabel&gt;Discrimination and bigotry&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Geography and travel&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#battledores"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Battledores&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Health and hygiene&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fables"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Fables&lt;/skos:preflabel&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/&gt;
+    &lt;skos:preflabel&gt;Bibles and religious works&lt;/skos:preflabel&gt;
   &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;
 </pre>
@@ -1242,7 +1266,7 @@
         <div id="ttl" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl" download="" target="_blank" rel="noopener noreferrer">Download Turtle</a>
             <pre>@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
-@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
 @prefix ldproc: &lt;https://doi/org/10.6069/uwlib.55.b.2#&gt; .
 @prefix schema: &lt;https://schema.org/&gt; .
 @prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
@@ -1358,19 +1382,19 @@
 
 &lt;https://doi.org/10.6069/uwlib.55.b.3&gt; a void:Dataset ;
     dc:language "en-US" ;
-    dcterms:alternative "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
-    dcterms:creator &lt;http://viaf.org/viaf/139541794&gt; ;
-    dcterms:description "Categories for describing types of historical children's literature",
+    dct:alternative "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" ;
+    dct:creator &lt;http://viaf.org/viaf/139541794&gt; ;
+    dct:description "Categories for describing types of historical children's literature",
         "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html." ;
-    dcterms:format &lt;http://www.w3.org/ns/formats/Turtle&gt; ;
-    dcterms:hasFormat &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html&gt;,
+    dct:format &lt;http://www.w3.org/ns/formats/Turtle&gt; ;
+    dct:hasFormat &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt&gt;,
         &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf&gt; ;
-    dcterms:issued "2018" ;
-    dcterms:license &lt;https://creativecommons.org/licenses/by-nc/4.0&gt; ;
-    dcterms:publisher &lt;http://viaf.org/viaf/139541794&gt; ;
-    dcterms:title "Linked Data Vocabularies: Children's Literature Categories" ;
+    dct:issued "2018" ;
+    dct:license &lt;https://creativecommons.org/licenses/by-nc/4.0&gt; ;
+    dct:publisher &lt;http://viaf.org/viaf/139541794&gt; ;
+    dct:title "Linked Data Vocabularies: Children's Literature Categories" ;
     void:classPartition [ void:class skos:Concept ] ;
     void:feature &lt;http://www.w3.org/ns/formats/JSON-LD&gt;,
         &lt;http://www.w3.org/ns/formats/N-Triples&gt;,
@@ -1385,171 +1409,127 @@
         </div>
         <div id="nt" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt" download="" target="_blank" rel="noopener noreferrer">Download N-Triples</a>
-            <pre>&lt;https://doi.org/10.6069/uwlib.55.B.3#cautionarytales&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Cautionary tales" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/format&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Historical and geographic works" .
+            <pre>&lt;https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Historical and geographic works" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#periodicals&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Periodicals" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Mathematics and arithmetic" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Primers (Instructional books)" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#cautionarytales&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Cautionary tales" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#moralinstruction&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Moral instruction" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#activitybooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#readers&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#objectbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Home economics and domestic life" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#copybooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Copybooks" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/JSON-LD&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#peterparley&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Alphabet books" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/description&gt; "Categories for describing types of historical children's literature" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Manners and social etiquette" .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#hornbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#fairytales&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#politicalworks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#copybooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Copybooks" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#encyclopedias&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#naturalsciences&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#spellingbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Spelling books" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#objectbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#fairytales&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Fairytales" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#grammars&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/description&gt; "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html." .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#moralinstruction&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#peterparley&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#chapbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Chapbooks" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#peterparley&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Peter Parley" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://schema.org/version&gt; "1-2-1" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/description&gt; "Categories for describing types of historical children's literature" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#naturalsciences&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Natural sciences" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Money and accounting" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#activitybooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Activity books" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#textbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Textbooks" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Trades and Occupations" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/issued&gt; "2018" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#encyclopedias&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Encyclopedias" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Elocution and rhetoric" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/format&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+_:N8b0856b972904668a15dce1df0e9b166 &lt;http://rdfs.org/ns/void#class&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/alternative&gt; "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Vocabularies: Children's Literature Categories" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#socialetiquette&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#grammars&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Grammars" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Alphabet books" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#readers&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Readers" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/license&gt; &lt;https://creativecommons.org/licenses/by-nc/4.0&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#dictionaries&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#history&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#cautionarytales&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Discrimination and bigotry" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Geography and travel" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#dictionaries&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Dictionaries" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#hornbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Hornbooks" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#copybooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#chapbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#objectbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Object books" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://doi/org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#battledores&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Battledores" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#spellingbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://schema.org/disambiguatingDescription&gt; "SKOS Concept Scheme" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#politicalworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Political works" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N8b0856b972904668a15dce1df0e9b166 .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#socialetiquette&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Social etiquette" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/elements/1.1/language&gt; "en-US" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Nursery rhymes" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Health and hygiene" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#textbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#history&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "History" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#fairytales&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Fairytales" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#textbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Textbooks" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#fables&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/title&gt; "Linked Data Vocabularies: Children's Literature Categories" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/publisher&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#encyclopedias&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Encyclopedias" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#chapbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#periodicals&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Periodicals" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#moralinstruction&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Moral instruction" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#spellingbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Spelling books" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/alternative&gt; "University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#politicalworks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#cautionarytales&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#socialetiquette&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#objectbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Object books" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#peterparley&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Peter Parley" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#grammars&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/description&gt; "RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html." .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://schema.org/disambiguatingDescription&gt; "SKOS Concept Scheme" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#chapbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Chapbooks" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Nursery rhymes" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://doi/org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#naturalsciences&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Natural sciences" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#dictionaries&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Dictionaries" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Money and accounting" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#fables&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Fables" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#dictionaries&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Bibles and religious works" .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#textbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Health and hygiene" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/license&gt; &lt;https://creativecommons.org/licenses/by-nc/4.0&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#readers&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Readers" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#moralinstruction&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N328b8ca3f7a145c594a058b91d13a7db .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Discrimination and bigotry" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#grammars&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Grammars" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#encyclopedias&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#spellingbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/issued&gt; "2018" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Elocution and rhetoric" .
-_:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Geography and travel" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;https://schema.org/version&gt; "1-2-1" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/elements/1.1/language&gt; "en-US" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Mathematics and arithmetic" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#copybooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#naturalsciences&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Manners and social etiquette" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#hornbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Hornbooks" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#battledores&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#history&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#activitybooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Activity books" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.rdf&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Primers (Instructional books)" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#history&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "History" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#politicalworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Political works" .
-&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#socialetiquette&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Social etiquette" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/JSON-LD&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#fables&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Fables" .
 &lt;https://doi.org/10.6069/uwlib.55.B.3#periodicals&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Trades and Occupations" .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#activitybooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.B.3#battledores&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Battledores" .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://purl.org/dc/terms/publisher&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#fairytales&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Home economics and domestic life" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#battledores&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.b.3&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks&gt; &lt;http://www.w3.org/2004/02/skos/core#preflabel&gt; "Bibles and religious works" .
+&lt;https://doi.org/10.6069/uwlib.55.B.3#fables&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; .
 </pre>
         </div>
         <div id="json" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld" download="" target="_blank" rel="noopener noreferrer">Download JSON-LD</a>
             <pre>[
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#activitybooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#politicalworks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Activity books"
+        "@value": "Political works"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#hornbooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moralinstruction",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Hornbooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#copybooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Copybooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#chapbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Chapbooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Nursery rhymes"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#objectbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Object books"
+        "@value": "Moral instruction"
       }
     ]
   },
@@ -1565,6 +1545,149 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Primers (Instructional books)"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Nursery rhymes"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#activitybooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Activity books"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Manners and social etiquette"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Discrimination and bigotry"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#readers",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Readers"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#cautionarytales",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Cautionary tales"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Trades and Occupations"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#grammars",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Grammars"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#history",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "History"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#textbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Textbooks"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#battledores",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Battledores"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Alphabet books"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.B.3#spellingbooks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1576,6 +1699,39 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Geography and travel"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Health and hygiene"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Mathematics and arithmetic"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.B.3#peterparley",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1583,6 +1739,28 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
         "@value": "Peter Parley"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#naturalsciences",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Natural sciences"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#dictionaries",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Dictionaries"
       }
     ]
   },
@@ -1655,7 +1833,7 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N328b8ca3f7a145c594a058b91d13a7db"
+        "@id": "_:N8b0856b972904668a15dce1df0e9b166"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -1692,7 +1870,7 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "_:N328b8ca3f7a145c594a058b91d13a7db",
+    "@id": "_:N8b0856b972904668a15dce1df0e9b166",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1700,46 +1878,13 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#cautionarytales",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#chapbooks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Cautionary tales"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Trades and Occupations"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fairytales",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Fairytales"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#battledores",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Battledores"
+        "@value": "Chapbooks"
       }
     ]
   },
@@ -1755,189 +1900,13 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Money and accounting"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#history",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "History"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Discrimination and bigotry"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Mathematics and arithmetic"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Health and hygiene"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#encyclopedias",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Encyclopedias"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#grammars",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Grammars"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#textbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Textbooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Bibles and religious works"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Manners and social etiquette"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#readers",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Readers"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Historical and geographic works"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Primers (Instructional books)"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#naturalsciences",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Natural sciences"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Elocution and rhetoric"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#dictionaries",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Dictionaries"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Geography and travel"
+        "@value": "Home economics and domestic life"
       }
     ]
   },
@@ -1953,46 +1922,101 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#politicalworks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Political works"
+        "@value": "Historical and geographic works"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moralinstruction",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#encyclopedias",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Moral instruction"
+        "@value": "Encyclopedias"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Alphabet books"
+        "@value": "Bibles and religious works"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#copybooks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Home economics and domestic life"
+        "@value": "Copybooks"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fairytales",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Fairytales"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Money and accounting"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Elocution and rhetoric"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#objectbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Object books"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#hornbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Hornbooks"
       }
     ]
   }
@@ -2010,13 +2034,18 @@ _:N328b8ca3f7a145c594a058b91d13a7db &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
         </div>
         <div class="footer_workaround"></div>
         <footer>
-            <div class="footer_container">
-                <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-                    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0">
-                </a>
-            To the extent possible under law, the University of Washington Libraries has waived
-            all copyright and related or neighboring rights to the Linked Data Vocabularies: Children's Literature Categories. This work was published in the United States.
-            </div>
+            <section xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+                <div class="footer_container">
+                    <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+                        <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0">
+                    </a>
+                    <div>To the extent possible under law, <a rel="dct:publisher" href="https://www.lib.washington.edu/cams">
+                            <span property="dct:title">Cataloging and Metadata Services, University of Washington Libraries</span>
+                        </a> has waived all copyright and related or neighboring rights to <span property="dct:title">
+                            <strong>Linked Data Vocabularies: Children's Literature Categories</strong>
+                        </span>. This work is published in the <span property="vcard:Country" datatype="dct:ISO3166" content="US" about="https://www.lib.washington.edu/cams">United States</span>. </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>

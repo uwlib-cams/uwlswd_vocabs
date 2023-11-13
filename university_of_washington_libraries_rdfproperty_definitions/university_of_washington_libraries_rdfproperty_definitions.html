@@ -66,6 +66,7 @@
     </head>
     <body about="https://doi.org/10.6069/uwlib.55.d.3">
         <script type="text/javascript" src="https://uwlib-cams.github.io/webviews/js/uwlswd.js"></script>
+        <a class="return" href="https://uwlib-cams.github.io/uwlswd/">return to all UWLSWD datasets and vocabularies</a>
         <h1>University of Washington Libraries rdf:Property Definitions</h1>
         <p>RDF dataset describing locally-minted properties used in University of Washington
          Libraries RDF data.</p>
@@ -277,8 +278,8 @@
                         <td>
                             <a href="http://rdfs.org/ns/void#classPartition">void:classPartition</a>
                         </td>
-                        <td property="void:classPartition" resource="[_:N23647b4308194ee0b9931ec8f4279c57]">
-                            <a href="#N23647b4308194ee0b9931ec8f4279c57">_:N23647b4308194ee0b9931ec8f4279c57</a>
+                        <td property="void:classPartition" resource="[_:N186791efc7d147d7b384fd76add8107d]">
+                            <a href="#N186791efc7d147d7b384fd76add8107d">_:N186791efc7d147d7b384fd76add8107d</a>
                         </td>
                     </tr>
                     <tr about="https://doi.org/10.6069/uwlib.55.d.3">
@@ -400,8 +401,8 @@
                             <a href="http://purl.org/dc/terms/isReferencedBy">http://purl.org/dc/terms/isReferencedBy</a>
                         </td>
                     </tr>
-                    <tr id="N23647b4308194ee0b9931ec8f4279c57" about="[_:N23647b4308194ee0b9931ec8f4279c57]">
-                        <td>_:N23647b4308194ee0b9931ec8f4279c57</td>
+                    <tr id="N186791efc7d147d7b384fd76add8107d" about="[_:N186791efc7d147d7b384fd76add8107d]">
+                        <td>_:N186791efc7d147d7b384fd76add8107d</td>
                         <td>
                             <a href="http://rdfs.org/ns/void#class">void:class</a>
                         </td>
@@ -424,6 +425,15 @@
    xmlns:schema="https://schema.org/"
    xmlns:void="http://rdfs.org/ns/void#"
 &gt;
+  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/&gt;
+    &lt;rdfs:comment xml:lang="en"&gt;Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/&gt;
+    &lt;rdfs:label&gt;Is Referenced in Digital Collection&lt;/rdfs:label&gt;
+    &lt;rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/&gt;
+    &lt;rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/&gt;
+    &lt;rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/&gt;
+  &lt;/rdf:Description&gt;
   &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3"&gt;
     &lt;rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/&gt;
     &lt;dct:creator rdf:resource="http://viaf.org/viaf/139541794"/&gt;
@@ -433,7 +443,7 @@
     &lt;dct:description xml:lang="en"&gt;RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data.&lt;/dct:description&gt;
     &lt;schema:disambiguatingDescription&gt;RDF Vocabulary&lt;/schema:disambiguatingDescription&gt;
     &lt;dct:title xml:lang="en"&gt;University of Washington Libraries rdf:Property Definitions&lt;/dct:title&gt;
-    &lt;void:classPartition rdf:nodeID="N23647b4308194ee0b9931ec8f4279c57"/&gt;
+    &lt;void:classPartition rdf:nodeID="N186791efc7d147d7b384fd76add8107d"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
     &lt;void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/&gt;
@@ -449,16 +459,7 @@
     &lt;dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html"/&gt;
     &lt;dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/&gt;
   &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl"&gt;
-    &lt;rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/&gt;
-    &lt;rdfs:comment xml:lang="en"&gt;Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.&lt;/rdfs:comment&gt;
-    &lt;rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/&gt;
-    &lt;rdfs:label&gt;Is Referenced in Digital Collection&lt;/rdfs:label&gt;
-    &lt;rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/&gt;
-    &lt;rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/&gt;
-    &lt;rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/&gt;
-  &lt;/rdf:Description&gt;
-  &lt;rdf:Description rdf:nodeID="N23647b4308194ee0b9931ec8f4279c57"&gt;
+  &lt;rdf:Description rdf:nodeID="N186791efc7d147d7b384fd76add8107d"&gt;
     &lt;void:class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/&gt;
   &lt;/rdf:Description&gt;
 &lt;/rdf:RDF&gt;
@@ -510,37 +511,37 @@
         </div>
         <div id="nt" class="tabcontent">
             <a class="download" href="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.nt" download="" target="_blank" rel="noopener noreferrer">Download N-Triples</a>
-            <pre>&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://doi.org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#domain&gt; &lt;http://www.europeana.eu/schemas/edm/Agent&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/format&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/issued&gt; "2018" .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://schema.org/disambiguatingDescription&gt; "RDF Vocabulary" .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://schema.org/version&gt; "1-2-1" .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/creator&gt; "University of Washington Libraries"@en .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt; &lt;http://purl.org/dc/terms/isReferencedBy&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Is Referenced in Digital Collection" .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/publisher&gt; "University of Washington Libraries"@en .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/language&gt; "en-US" .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."@en .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N23647b4308194ee0b9931ec8f4279c57 .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy&gt; &lt;https://doi.org/10.6069/uwlib.55.d.3&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/license&gt; &lt;https://creativecommons.org/licenses/zero/1.0/&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/title&gt; "University of Washington Libraries rdf:Property Definitions"@en .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/publisher&gt; &lt;http://viaf.org/viaf/139541794&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#range&gt; &lt;http://purl.org/dc/dcmitype/Collection&gt; .
+            <pre>&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#range&gt; &lt;http://purl.org/dc/dcmitype/Collection&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://rdfs.org/ns/void#Dataset&gt; .
-_:N23647b4308194ee0b9931ec8f4279c57 &lt;http://rdfs.org/ns/void#class&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy&gt; &lt;https://doi.org/10.6069/uwlib.55.d.3&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.rdf&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://schema.org/version&gt; "1-2-1" .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/license&gt; &lt;https://creativecommons.org/licenses/zero/1.0/&gt; .
 &lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.jsonld&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
-&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/creator&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/issued&gt; "2018" .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/Turtle&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; "Is Referenced in Digital Collection" .
 &lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/description&gt; "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."@en .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#classPartition&gt; _:N186791efc7d147d7b384fd76add8107d .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/format&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt; &lt;http://purl.org/dc/terms/isReferencedBy&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDFa&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/N-Triples&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#domain&gt; &lt;http://www.europeana.eu/schemas/edm/Agent&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/title&gt; "University of Washington Libraries rdf:Property Definitions"@en .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/creator&gt; "University of Washington Libraries"@en .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/hasFormat&gt; &lt;https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.html&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3#inDigiColl&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."@en .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/terms/publisher&gt; &lt;http://viaf.org/viaf/139541794&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://schema.org/disambiguatingDescription&gt; "RDF Vocabulary" .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/publisher&gt; "University of Washington Libraries"@en .
+_:N186791efc7d147d7b384fd76add8107d &lt;http://rdfs.org/ns/void#class&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;https://doi.org/10.6069/uwlib.55.b.2#containsEntity&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#Property&gt; .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://purl.org/dc/elements/1.1/language&gt; "en-US" .
+&lt;https://doi.org/10.6069/uwlib.55.d.3&gt; &lt;http://rdfs.org/ns/void#feature&gt; &lt;http://www.w3.org/ns/formats/RDF_XML&gt; .
 </pre>
         </div>
         <div id="json" class="tabcontent">
@@ -621,7 +622,7 @@ _:N23647b4308194ee0b9931ec8f4279c57 &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N23647b4308194ee0b9931ec8f4279c57"
+        "@id": "_:N186791efc7d147d7b384fd76add8107d"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -655,7 +656,7 @@ _:N23647b4308194ee0b9931ec8f4279c57 &lt;http://rdfs.org/ns/void#class&gt; &lt;ht
     ]
   },
   {
-    "@id": "_:N23647b4308194ee0b9931ec8f4279c57",
+    "@id": "_:N186791efc7d147d7b384fd76add8107d",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
