@@ -12,14 +12,12 @@
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:title xml:lang="en">University of Washington Libraries RDA Application Profile Extension</dct:title>
-    <dct:description xml:lang="en">Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the linked data cataloging environment called Sinopia.</dct:description>
+    <dct:description xml:lang="en">Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the Sinopia Linked Data Editor.</dct:description>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:creator xml:lang="en">University of Washington Libraries</dc:creator>
     <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:publisher xml:lang="en">University of Washington Libraries</dc:publisher>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</dct:issued>
-    <dc:language>en-US</dc:language>
+    <dc:language>en</dc:language>
     <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
@@ -27,7 +25,7 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <void:classPartition rdf:nodeID="Na3b82e3cfa87488d87b9593938746bc9"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <schema:version>1-3-0</schema:version>
+    <schema:version>1-4-0</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.jsonld"/>
