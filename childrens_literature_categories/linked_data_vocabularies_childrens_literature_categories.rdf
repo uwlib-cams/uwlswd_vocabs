@@ -96,8 +96,8 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
     <void:classPartition rdf:nodeID="N8b0856b972904668a15dce1df0e9b166"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:language>en-US</dc:language>
-    <schema:version>1-2-1</schema:version>
+    <dc:language>en</dc:language>
+    <schema:version>1-3-1</schema:version>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt"/>
