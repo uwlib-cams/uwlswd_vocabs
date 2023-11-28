@@ -1,34 +1,45 @@
 [
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#politicalworks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Political works"
+        "@value": "Trades and Occupations"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moralinstruction",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#socialetiquette",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Moral instruction"
+        "@value": "Social etiquette"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#periodicals",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#hornbooks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Periodicals"
+        "@value": "Hornbooks"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Home economics and domestic life"
       }
     ]
   },
@@ -44,156 +55,24 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#periodicals",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Nursery rhymes"
+        "@value": "Periodicals"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#activitybooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fairytales",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Activity books"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Manners and social etiquette"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Discrimination and bigotry"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#readers",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Readers"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#cautionarytales",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Cautionary tales"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Trades and Occupations"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#grammars",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Grammars"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#history",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "History"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#textbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Textbooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#battledores",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Battledores"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Alphabet books"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#spellingbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Spelling books"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Geography and travel"
+        "@value": "Fairytales"
       }
     ]
   },
@@ -209,35 +88,46 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#cautionarytales",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Mathematics and arithmetic"
+        "@value": "Cautionary tales"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#peterparley",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Peter Parley"
+        "@value": "Nursery rhymes"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#naturalsciences",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Natural sciences"
+        "@value": "Bibles and religious works"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#textbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Textbooks"
       }
     ]
   },
@@ -253,13 +143,200 @@
     ]
   },
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#naturalsciences",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Natural sciences"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fables",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Fables"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#readers",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Readers"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moralinstruction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Moral instruction"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#spellingbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Spelling books"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Elocution and rhetoric"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#chapbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Chapbooks"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#politicalworks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Political works"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#encyclopedias",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Encyclopedias"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Historical and geographic works"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Money and accounting"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#history",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "History"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#activitybooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Activity books"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Mathematics and arithmetic"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Discrimination and bigotry"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#objectbooks",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Object books"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#peterparley",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#preflabel": [
+      {
+        "@value": "Peter Parley"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.b.3",
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
     ],
     "http://purl.org/dc/elements/1.1/language": [
       {
-        "@value": "en-US"
+        "@value": "en"
       }
     ],
     "http://purl.org/dc/terms/alternative": [
@@ -321,7 +398,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N8b0856b972904668a15dce1df0e9b166"
+        "@id": "_:N6f7e6a8589964bf88d2fd84f0e48ba34"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -353,12 +430,12 @@
     ],
     "https://schema.org/version": [
       {
-        "@value": "1-2-1"
+        "@value": "1-3-1"
       }
     ]
   },
   {
-    "@id": "_:N8b0856b972904668a15dce1df0e9b166",
+    "@id": "_:N6f7e6a8589964bf88d2fd84f0e48ba34",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/2004/02/skos/core#Concept"
@@ -366,79 +443,13 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#chapbooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#grammars",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Chapbooks"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fables",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Fables"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Home economics and domestic life"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#socialetiquette",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Social etiquette"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Historical and geographic works"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#encyclopedias",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Encyclopedias"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Bibles and religious works"
+        "@value": "Grammars"
       }
     ]
   },
@@ -454,57 +465,46 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#fairytales",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Fairytales"
+        "@value": "Geography and travel"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Money and accounting"
+        "@value": "Manners and social etiquette"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Elocution and rhetoric"
+        "@value": "Alphabet books"
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#objectbooks",
+    "@id": "https://doi.org/10.6069/uwlib.55.B.3#battledores",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#preflabel": [
       {
-        "@value": "Object books"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.B.3#hornbooks",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#preflabel": [
-      {
-        "@value": "Hornbooks"
+        "@value": "Battledores"
       }
     ]
   }
