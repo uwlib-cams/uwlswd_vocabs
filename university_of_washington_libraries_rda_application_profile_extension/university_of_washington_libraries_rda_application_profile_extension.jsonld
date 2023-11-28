@@ -1,13 +1,13 @@
 [
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcGeographicClassification",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A relationship between an RDA Work, Expression, Manifestation, or Item and an agent who has made some contribution to its realization."
+        "@value": "A relationship between an RDA Manifestation or BIBFRAME Instance and a Library of Congress Geographic Classification number corresponding to a geographic area represented on a cartographic resource."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -18,36 +18,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Has Contributor Agent"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#note": [
-      {
-        "@language": "en",
-        "@value": "Although this is a frequently used property relating RDA entities, it is not included in the RDA Resitry. The domain is unspecified, but values should be instances of one of 4 RDA entities: Work, Expression, Manifestation or Item."
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A relationship between an entity and the second portion of its Library of Congress Classification number."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Has LC Classification Part B"
+        "@value": "Has LC Geographic Classification"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -58,19 +29,19 @@
     "http://www.w3.org/2004/02/skos/core#note": [
       {
         "@language": "en",
-        "@value": "Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive."
+        "@value": "Required for describing RDA Manifestations and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary."
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A relationship between an entity and the first portion of its Library of Congress Classification number."
+        "@value": "A relationship between an entity other than an RDA Item and a note."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -81,7 +52,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Has LC Classification Part A"
+        "@value": "Has University Of Washington Note."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -92,7 +63,7 @@
     "http://www.w3.org/2004/02/skos/core#note": [
       {
         "@language": "en",
-        "@value": "Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive."
+        "@value": "Expected to be pertinent only in one local context (the University of Washington Libraries)."
       }
     ]
   },
@@ -101,21 +72,9 @@
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
     ],
-    "http://purl.org/dc/elements/1.1/creator": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
-      }
-    ],
     "http://purl.org/dc/elements/1.1/language": [
       {
-        "@value": "en-US"
-      }
-    ],
-    "http://purl.org/dc/elements/1.1/publisher": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
+        "@value": "en"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -126,7 +85,7 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the linked data cataloging environment called Sinopia."
+        "@value": "Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the Sinopia Linked Data Editor."
       }
     ],
     "http://purl.org/dc/terms/format": [
@@ -172,7 +131,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:Na3b82e3cfa87488d87b9593938746bc9"
+        "@id": "_:Nd15b72ceb97f4bb88e72b4447aeb7a27"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -201,83 +160,15 @@
     ],
     "https://schema.org/version": [
       {
-        "@value": "1-3-0"
+        "@value": "1-4-0"
       }
     ]
   },
   {
-    "@id": "_:Na3b82e3cfa87488d87b9593938746bc9",
+    "@id": "_:Nd15b72ceb97f4bb88e72b4447aeb7a27",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A relationship between a government document and a corresponding U.S. Superintendent of Documents Classification number."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Has SuDoc Classification Number"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#note": [
-      {
-        "@language": "en",
-        "@value": "Required for describing RDA Manifestations that are government documents, RDA Items, and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary."
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcGeographicClassification",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A relationship between an RDA Manifestation or BIBFRAME Instance and a Library of Congress Geographic Classification number corresponding to a geographic area represented on a cartographic resource."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Has LC Geographic Classification"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#note": [
-      {
-        "@language": "en",
-        "@value": "Required for describing RDA Manifestations and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary."
       }
     ]
   },
@@ -317,6 +208,79 @@
       {
         "@language": "en",
         "@value": "Need this for cataloging items for which we don’t use traditional call numbers, such as sound recordings and videos. No equivalent property found."
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalLocation",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between an item and a physical location for that item."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdaregistry.info/Elements/c/C10003"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Has Physical Location"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "Equivalent BIBFRAME property has rdfs:domain = bf:Item, which is inaccurate in the RDA context."
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between a government document and a corresponding U.S. Superintendent of Documents Classification number."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Has SuDoc Classification Number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "Required for describing RDA Manifestations that are government documents, RDA Items, and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary."
       }
     ]
   },
@@ -389,6 +353,40 @@
     ]
   },
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between an RDA Work and a term identifying a characteristic of the Work’s creator."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://rdaregistry.info/Elements/c/C10001"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Has Creator Characteristic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "Values for this property should resemble values for the MARC 386 field. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalSubLocation",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -428,19 +426,14 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalLocation",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A relationship between an item and a physical location for that item."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "@id": "http://rdaregistry.info/Elements/c/C10003"
+        "@value": "A relationship between an entity and the first portion of its National Library of Medicine Classification number."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -451,7 +444,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Has Physical Location"
+        "@value": "Has NLM Classification Part A"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -462,24 +455,19 @@
     "http://www.w3.org/2004/02/skos/core#note": [
       {
         "@language": "en",
-        "@value": "Equivalent BIBFRAME property has rdfs:domain = bf:Item, which is inaccurate in the RDA context."
+        "@value": "Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive."
       }
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A relationship between an RDA Work and a term identifying a characteristic of the Work’s creator."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "@id": "http://rdaregistry.info/Elements/c/C10001"
+        "@value": "A relationship between an RDA Work, Expression, Manifestation, or Item and an agent who has made some contribution to its realization."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -490,47 +478,13 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Has Creator Characteristic"
+        "@value": "Has Contributor Agent"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#note": [
       {
         "@language": "en",
-        "@value": "Values for this property should resemble values for the MARC 386 field. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A relationship between an entity other than an RDA Item and a note."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Has University Of Washington Note."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#note": [
-      {
-        "@language": "en",
-        "@value": "Expected to be pertinent only in one local context (the University of Washington Libraries)."
+        "@value": "Although this is a frequently used property relating RDA entities, it is not included in the RDA Resitry. The domain is unspecified, but values should be instances of one of 4 RDA entities: Work, Expression, Manifestation or Item."
       }
     ]
   },
@@ -569,14 +523,14 @@
     ]
   },
   {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA",
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A relationship between an entity and the first portion of its National Library of Medicine Classification number."
+        "@value": "A relationship between an entity and the second portion of its Library of Congress Classification number."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -587,7 +541,41 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Has NLM Classification Part A"
+        "@value": "Has LC Classification Part B"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#note": [
+      {
+        "@language": "en",
+        "@value": "Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive."
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A relationship between an entity and the first portion of its Library of Congress Classification number."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Has LC Classification Part A"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
