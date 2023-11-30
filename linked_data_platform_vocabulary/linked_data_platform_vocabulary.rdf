@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:ldproc="https://doi/org/10.6069/uwlib.55.b.2#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:schema="https://schema.org/"
@@ -9,15 +9,15 @@
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt"/>
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html"/>
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld"/>
-    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"/>
-    <dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <dct:title>Linked Data Platform Vocabulary</dct:title>
-    <dct:description>RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets.</dct:description>
+    <dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt"/>
+    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html"/>
+    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld"/>
+    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"/>
+    <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <dcterms:title>Linked Data Platform Vocabulary</dcterms:title>
+    <dcterms:description>RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets.</dcterms:description>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
@@ -25,9 +25,9 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
-    <dct:issued>2018</dct:issued>
+    <dcterms:issued>2018</dcterms:issued>
     <dc:language>en</dc:language>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
     <schema:version>1-1-1</schema:version>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1#Platform">

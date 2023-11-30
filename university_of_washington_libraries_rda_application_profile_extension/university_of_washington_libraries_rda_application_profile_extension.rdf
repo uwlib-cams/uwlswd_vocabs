@@ -12,42 +12,42 @@
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:title xml:lang="en">University of Washington Libraries RDA Application Profile Extension</dct:title>
-    <dct:description xml:lang="en">Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the linked data cataloging environment called Sinopia.</dct:description>
+    <dct:description xml:lang="en">Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the Sinopia Linked Data Editor.</dct:description>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:creator xml:lang="en">University of Washington Libraries</dc:creator>
     <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:publisher xml:lang="en">University of Washington Libraries</dc:publisher>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</dct:issued>
-    <dc:language>en-US</dc:language>
+    <dc:language>en</dc:language>
     <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
-    <void:classPartition rdf:nodeID="Na3b82e3cfa87488d87b9593938746bc9"/>
+    <void:classPartition rdf:nodeID="N2bbc01d5607f4222a3e2acfffe71c138"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <schema:version>1-3-0</schema:version>
+    <schema:version>1-4-0</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.jsonld"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.html"/>
     <dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcGeographicClassification">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalLocation">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has LC Geographic Classification</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an RDA Manifestation or BIBFRAME Instance and a Library of Congress Geographic Classification number corresponding to a geographic area represented on a cartographic resource.</rdfs:comment>
+    <rdfs:label xml:lang="en">Has Physical Location</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an item and a physical location for that item.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Required for describing RDA Manifestations and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary.</skos:note>
+    <skos:note xml:lang="en">Equivalent BIBFRAME property has rdfs:domain = bf:Item, which is inaccurate in the RDA context.</skos:note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has Contributor Agent</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an RDA Work, Expression, Manifestation, or Item and an agent who has made some contribution to its realization.</rdfs:comment>
+    <rdfs:label xml:lang="en">Has LC Classification Part B</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an entity and the second portion of its Library of Congress Classification number.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Although this is a frequently used property relating RDA entities, it is not included in the RDA Resitry. The domain is unspecified, but values should be instances of one of 4 RDA entities: Work, Expression, Manifestation or Item.</skos:note>
+    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartB">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -57,18 +57,10 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
     <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalSubLocation">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has University Of Washington Note.</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an entity other than an RDA Item and a note.</rdfs:comment>
-    <skos:note xml:lang="en">Expected to be pertinent only in one local context (the University of Washington Libraries).</skos:note>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalLocation">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has Physical Location</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an item and a physical location for that item.</rdfs:comment>
+    <rdfs:label xml:lang="en">Has Physical Sub-Location</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an item and a physical sub-location for that item.</rdfs:comment>
     <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
@@ -81,38 +73,6 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
     <skos:note xml:lang="en">This property is expected to be used to describe RDA Manifestations and Items only. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive.</skos:note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has SuDoc Classification Number</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between a government document and a corresponding U.S. Superintendent of Documents Classification number.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Required for describing RDA Manifestations that are government documents, RDA Items, and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary.</skos:note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartB">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has LC Classification Part B</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an entity and the second portion of its Library of Congress Classification number.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has NLM Classification Part A</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an entity and the first portion of its National Library of Medicine Classification number.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has LC Classification Part A</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an entity and the first portion of its Library of Congress Classification number.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasCallNumber">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">Has Call Number</rdfs:label>
@@ -121,15 +81,6 @@
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
     <skos:note xml:lang="en">Need this for cataloging items for which we don’t use traditional call numbers, such as sound recordings and videos. No equivalent property found.</skos:note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasPhysicalSubLocation">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Has Physical Sub-Location</rdfs:label>
-    <rdfs:comment xml:lang="en">A relationship between an item and a physical sub-location for that item.</rdfs:comment>
-    <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
-    <skos:note xml:lang="en">Equivalent BIBFRAME property has rdfs:domain = bf:Item, which is inaccurate in the RDA context.</skos:note>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasBarcode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -148,7 +99,54 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
     <skos:note xml:lang="en">Values for this property should resemble values for the MARC 386 field. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive.</skos:note>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na3b82e3cfa87488d87b9593938746bc9">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasNlmClassificationPartA">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has NLM Classification Part A</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an entity and the first portion of its National Library of Medicine Classification number.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcGeographicClassification">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has LC Geographic Classification</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an RDA Manifestation or BIBFRAME Instance and a Library of Congress Geographic Classification number corresponding to a geographic area represented on a cartographic resource.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+    <skos:note xml:lang="en">Required for describing RDA Manifestations and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasUniversityOfWashingtonNote">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has University Of Washington Note.</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an entity other than an RDA Item and a note.</rdfs:comment>
+    <skos:note xml:lang="en">Expected to be pertinent only in one local context (the University of Washington Libraries).</skos:note>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasLcClassificationPartA">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has LC Classification Part A</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an entity and the first portion of its Library of Congress Classification number.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+    <skos:note xml:lang="en">Property to classify a resource. The domain and range of the BIBFRAME property created for a similar purpose was judged too restrictive.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasSuDocClassificationNumber">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has SuDoc Classification Number</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between a government document and a corresponding U.S. Superintendent of Documents Classification number.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+    <skos:note xml:lang="en">Required for describing RDA Manifestations that are government documents, RDA Items, and BIBFRAME Instances of cartographic resources. No equivalent property found in another vocabulary.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">Has Contributor Agent</rdfs:label>
+    <rdfs:comment xml:lang="en">A relationship between an RDA Work, Expression, Manifestation, or Item and an agent who has made some contribution to its realization.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.4"/>
+    <skos:note xml:lang="en">Although this is a frequently used property relating RDA entities, it is not included in the RDA Resitry. The domain is unspecified, but values should be instances of one of 4 RDA entities: Work, Expression, Manifestation or Item.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2bbc01d5607f4222a3e2acfffe71c138">
     <void:class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>

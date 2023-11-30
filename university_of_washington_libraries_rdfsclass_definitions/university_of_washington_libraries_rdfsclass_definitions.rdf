@@ -21,17 +21,14 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
     <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
     <rdfs:label xml:lang="en">Order Number</rdfs:label>
-    <rdfs:comment xml:lang="en">Number used to order a copy of a digital resource from the
-      University of Washington Libraries.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Number used to order a copy of a digital resource from the University of Washington Libraries.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:creator xml:lang="en">University of Washington Libraries</dc:creator>
     <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dc:publisher xml:lang="en">University of Washington Libraries</dc:publisher>
     <dct:title xml:lang="en">University of Washington Libraries rdfs:Class Definitions</dct:title>
-    <dct:description xml:lang="en">RDF dataset describing classes used in University of Washington Libraries RDF data.</dct:description>
+    <dct:description xml:lang="en">RDF dataset describing locally-defined classes used in University of Washington Libraries Semantic Web Data.</dct:description>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
@@ -40,9 +37,9 @@
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <void:classPartition rdf:nodeID="Nad3490c3cbb048109860378bb8a49db8"/>
     <dct:issued>2018</dct:issued>
-    <dc:language>en-US</dc:language>
+    <dc:language>en</dc:language>
     <dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0/"/>
-    <schema:version>1-2-2</schema:version>
+    <schema:version>1-3-2</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.jsonld"/>

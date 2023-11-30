@@ -6,7 +6,6 @@
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://doi.org/10.6069/uwlib.55.d.4#hasBarcode> a rdf:Property ;
     rdfs:label "Has Barcode"@en ;
@@ -22,7 +21,7 @@
     rdfs:domain <http://rdaregistry.info/Elements/c/C10003> ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.4> ;
     rdfs:range rdfs:Literal ;
-    skos:note "Need this for cataloging items for which we donâ€™t use traditional call numbers, such as sound recordings and videos. No equivalent property found."@en .
+    skos:note "Need this for cataloging items for which we don’t use traditional call numbers, such as sound recordings and videos. No equivalent property found."@en .
 
 <https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent> a rdf:Property ;
     rdfs:label "Has Contributor Agent"@en ;
@@ -32,7 +31,7 @@
 
 <https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic> a rdf:Property ;
     rdfs:label "Has Creator Characteristic"@en ;
-    rdfs:comment "A relationship between an RDA Work and a term identifying a characteristic of the Workâ€™s creator."@en ;
+    rdfs:comment "A relationship between an RDA Work and a term identifying a characteristic of the Work’s creator."@en ;
     rdfs:domain <http://rdaregistry.info/Elements/c/C10001> ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.4> ;
     skos:note "Values for this property should resemble values for the MARC 386 field. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."@en .
@@ -109,17 +108,15 @@
     skos:note "This property is expected to be used to describe RDA Manifestations and Items only. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."@en .
 
 <https://doi.org/10.6069/uwlib.55.d.4> a void:Dataset ;
-    dc:creator "University of Washington Libraries"@en ;
-    dc:language "en-US" ;
-    dc:publisher "University of Washington Libraries"@en ;
+    dc:language "en" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
-    dct:description "Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the linked data cataloging environment called Sinopia."@en ;
+    dct:description "Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the Sinopia Linked Data Editor."@en ;
     dct:format <http://www.w3.org/ns/formats/Turtle> ;
     dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.html>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.jsonld>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.nt>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.rdf> ;
-    dct:issued "2019"^^xsd:gYear ;
+    dct:issued "2019"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:publisher <http://viaf.org/viaf/139541794> ;
     dct:title "University of Washington Libraries RDA Application Profile Extension"@en ;
@@ -130,5 +127,5 @@
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdf:Property ;
     schema:disambiguatingDescription "RDF Vocabulary" ;
-    schema:version "1-3-0" .
+    schema:version "1-4-0" .
 
