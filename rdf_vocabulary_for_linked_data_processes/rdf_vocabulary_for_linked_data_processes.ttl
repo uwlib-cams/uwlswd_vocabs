@@ -1,5 +1,4 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -36,10 +35,10 @@
     rdfs:range rdfs:Class .
 
 <https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> a rdf:Property ;
-    rdf:domain void:Dataset ;
-    rdf:label "Data Harvest Source" ;
-    rdf:range dcmitype:Collection ;
-    rdfs:comment "Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection." .
+    rdfs:label "Data Harvest Source" ;
+    rdfs:comment "Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection." ;
+    rdfs:domain void:Dataset ;
+    rdfs:range <http://purl.org/dc/dcmitype/Collection> .
 
 <https://doi.org/10.6069/uwlib.55.b.2#deDuped> a rdf:Property ;
     rdfs:label "De-duplicated" ;

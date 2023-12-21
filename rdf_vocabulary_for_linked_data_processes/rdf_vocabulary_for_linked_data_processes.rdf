@@ -7,12 +7,12 @@
    xmlns:schema="https://schema.org/"
    xmlns:void="http://rdfs.org/ns/void#"
 >
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#linkPredicate">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
-    <rdfs:label>Data Harvest Source</rdfs:label>
-    <rdfs:comment>Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>Link Predicates</rdfs:label>
+    <rdfs:comment>Value must be IRIs for properties used to relate entities in the source dataset to entities in external datasets. Note uwrecon:linkPredicate should be favored over void:linkPredicate only when the predicate is not part of a graph that is a void:Linkset.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
@@ -30,7 +30,7 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
-    <void:classPartition rdf:nodeID="N5b23c4e95d4c4de38e12d49fa5f32b08"/>
+    <void:classPartition rdf:nodeID="Nc4b9c60c403444af885312f25be02ee9"/>
     <schema:version>1-7-0</schema:version>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.ttl"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.nt"/>
@@ -38,12 +38,15 @@
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html"/>
     <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#deDuped">
+  <rdf:Description rdf:nodeID="Nc4b9c60c403444af885312f25be02ee9">
+    <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:label>De-duplicated</rdfs:label>
-    <rdfs:comment>Value is the version number of dataset after it was de-duped</rdfs:comment>
+    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+    <rdfs:label>Data Harvest Source</rdfs:label>
+    <rdfs:comment>Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#linkPredicateNote">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -52,40 +55,12 @@
     <rdfs:label>Link Predicate Notes</rdfs:label>
     <rdfs:comment>Value is a textual description of the use of properties relating entities in the source dataset.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#linkPredicate">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label>Link Predicates</rdfs:label>
-    <rdfs:comment>Value must be IRIs for properties used to relate entities in the source dataset to entities in external datasets. Note uwrecon:linkPredicate should be favored over void:linkPredicate only when the predicate is not part of a graph that is a void:Linkset.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#platform">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Platform used for processing tasks</rdfs:label>
-    <rdfs:comment>Value is the name of any platform used, especially for matchng tasks, to process the dataset.</rdfs:comment>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#containsEntity">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
     <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdfs:label>Entities in Dataset</rdfs:label>
     <rdfs:comment>Value is a type of entity in the dataset. Repeat the property for each type. Use in conjunction with void:classPartition when applicable. Distinguished from void:classPartition in that it asserts that an entity is present in a dataset even if it is not the basis for a void:classPartition.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#processingNote">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    <rdfs:label>Processing Notes</rdfs:label>
-    <rdfs:comment>Value is a textual description of data processing, especially during matching tasks, that may be pertinent to use of the dataset.</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
-    <rdfs:label>Target Datasets (Manual Matching)</rdfs:label>
-    <rdfs:comment>Value should be an identifier for a target vocabulary, prefereably an IRI. The IRI is extracted from the target vocabulary to provide an additional description for a single resource already described in the source dataset, therefore not extracted as part of a comprehesive matching process. This property was created in addition to uwrecon:targetVocab in order to distinguish when a comprehensive matching process was or was not executed. Note that uwrecon:targetVocabSecondary is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicate.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#targetVocab">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -94,7 +69,32 @@
     <rdfs:label>Target Datasets (Machine Matching)</rdfs:label>
     <rdfs:comment>Value is an http identifier for a target vocabulary, prefereably an IRI. The target vocabulary is parsed in a systematic and comprehesive matching process to find additional descriptions of entities already described in the source dataset. Note that uwrecon:targetVocab is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicates.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N5b23c4e95d4c4de38e12d49fa5f32b08">
-    <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#targetVocabSecondary">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
+    <rdfs:label>Target Datasets (Manual Matching)</rdfs:label>
+    <rdfs:comment>Value should be an identifier for a target vocabulary, prefereably an IRI. The IRI is extracted from the target vocabulary to provide an additional description for a single resource already described in the source dataset, therefore not extracted as part of a comprehesive matching process. This property was created in addition to uwrecon:targetVocab in order to distinguish when a comprehensive matching process was or was not executed. Note that uwrecon:targetVocabSecondary is favored above void:target and its subproperties when the resource being described is not part of a graph that is a void:Linkset. This property helps build a list of all targets used to insert related assertions about matching entities into the source dataset. This is useful when assertions (triples) are inserted into the source graph. Also note that the properties used to bring the source entities in relation to the target entities are described in uwrecon:linkPredicate.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#processingNote">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:label>Processing Notes</rdfs:label>
+    <rdfs:comment>Value is a textual description of data processing, especially during matching tasks, that may be pertinent to use of the dataset.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#platform">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdfs:range rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Platform used for processing tasks</rdfs:label>
+    <rdfs:comment>Value is the name of any platform used, especially for matchng tasks, to process the dataset.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#deDuped">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:label>De-duplicated</rdfs:label>
+    <rdfs:comment>Value is the version number of dataset after it was de-duped</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>
