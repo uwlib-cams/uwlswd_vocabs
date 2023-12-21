@@ -9,9 +9,9 @@
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <rdf:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
-    <rdf:label>Data Harvest Source</rdf:label>
+    <rdfs:domain rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+    <rdfs:label>Data Harvest Source</rdfs:label>
     <rdfs:comment>Digital collection that is the source of the RDF data. Used when an RDF dataset is an instance of previously exisiting data; that previously existing data is not RDF data and has been exported or harvested and repurposed as linked data. In addition the source data describes a digital collection -- it is the metadata for that digital collection -- and the RDF data describes all resources associated with that digital collection.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2">
