@@ -18,7 +18,6 @@
     dcterms:license <https://creativecommons.org/licenses/zero/1.0> ;
     dcterms:publisher <http://viaf.org/viaf/139541794> ;
     dcterms:title "Linked Data Platforms" ;
-    void:classPartition [ void:class <https://doi.org/10.6069/uwlib.55.b.1#Platform> ] ;
     void:feature <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
