@@ -136,5 +136,5 @@
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity skos:Concept ;
     schema:disambiguatingDescription "SKOS Concept Scheme" ;
-    schema:version "1-3-1" .
+    schema:version "1-4-1" .
 
