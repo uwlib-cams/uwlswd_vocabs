@@ -19,7 +19,6 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <void:classPartition rdf:nodeID="Nb3709463be7642dca5d5fbee18d8cec6"/>
     <dcterms:issued>2018</dcterms:issued>
     <schema:version>1-3-1</schema:version>
     <dc:language>en</dc:language>
@@ -54,8 +53,5 @@
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>SPARQL</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb3709463be7642dca5d5fbee18d8cec6">
-    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
   </rdf:Description>
 </rdf:RDF>
