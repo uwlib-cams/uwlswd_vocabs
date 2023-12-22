@@ -19,7 +19,7 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <ldproc:containsEntity rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <void:classPartition rdf:nodeID="N495cc0b6631d446695b4defc97b93330"/>
+    <void:classPartition rdf:nodeID="Nc83c0030ff8c471bb70fec0ae72ac012"/>
     <dcterms:issued>2018</dcterms:issued>
     <schema:version>1-2-1</schema:version>
     <dc:language>en</dc:language>
@@ -31,18 +31,6 @@
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html"/>
     <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Fuseki</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>OpenRefine</rdfs:label>
@@ -51,11 +39,23 @@
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>Microsoft Excel</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N495cc0b6631d446695b4defc97b93330">
-    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label>SPARQL</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc83c0030ff8c471bb70fec0ae72ac012">
+    <void:class rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label>Fuseki</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
