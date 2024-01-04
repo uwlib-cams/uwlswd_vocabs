@@ -25,7 +25,7 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <void:classPartition rdf:nodeID="N2bbc01d5607f4222a3e2acfffe71c138"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <schema:version>1-4-0</schema:version>
+    <schema:version>1-5-0</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rda_application_profile_extension/university_of_washington_libraries_rda_application_profile_extension.jsonld"/>

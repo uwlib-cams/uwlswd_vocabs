@@ -28,7 +28,7 @@
     <dct:issued>2018</dct:issued>
     <dc:language>en</dc:language>
     <dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
-    <schema:version>1-1-1</schema:version>
+    <schema:version>1-2-1</schema:version>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.1#Platform">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
