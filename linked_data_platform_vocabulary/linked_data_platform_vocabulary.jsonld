@@ -16,6 +16,7 @@
     ],
     "http://purl.org/dc/terms/description": [
       {
+        "@language": "en",
         "@value": "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets."
       }
     ],
@@ -55,6 +56,7 @@
     ],
     "http://purl.org/dc/terms/title": [
       {
+        "@language": "en",
         "@value": "Linked Data Platform Vocabulary"
       }
     ],
@@ -82,12 +84,13 @@
     ],
     "https://schema.org/disambiguatingDescription": [
       {
+        "@language": "en",
         "@value": "RDF Vocabulary"
       }
     ],
     "https://schema.org/version": [
       {
-        "@value": "1-1-1"
+        "@value": "1-2-1"
       }
     ]
   },

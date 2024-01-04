@@ -30,28 +30,28 @@
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html"/>
     <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label xml:lang="en">SPARQL</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label xml:lang="en">OpenRefine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label xml:lang="en">Fuseki</rdfs:label>
+    <rdfs:label xml:lang="en">Microsoft Excel</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label xml:lang="en">iMacros [Firefox plugin]</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
-    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label xml:lang="en">Microsoft Excel</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
     <rdfs:label xml:lang="en">Silk Linked Data Integration Framework</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label xml:lang="en">Fuseki</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label xml:lang="en">OpenRefine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
+    <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
+    <rdfs:label xml:lang="en">SPARQL</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

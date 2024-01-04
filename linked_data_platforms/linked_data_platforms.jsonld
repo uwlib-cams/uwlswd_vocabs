@@ -1,12 +1,37 @@
 [
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "SPARQL"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform002",
     "@type": [
       "https://doi.org/10.6069/uwlib.55.b.1#Platform"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@language": "en",
         "@value": "Fuseki"
+      }
+    ]
+  },
+  {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
+    "@type": [
+      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "OpenRefine"
       }
     ]
   },
@@ -27,6 +52,7 @@
     ],
     "http://purl.org/dc/terms/description": [
       {
+        "@language": "en",
         "@value": "Platforms (or applications) used to process RDF datasets."
       }
     ],
@@ -66,6 +92,7 @@
     ],
     "http://purl.org/dc/terms/title": [
       {
+        "@language": "en",
         "@value": "Linked Data Platforms"
       }
     ],
@@ -90,6 +117,7 @@
     ],
     "https://schema.org/disambiguatingDescription": [
       {
+        "@language": "en",
         "@value": "RDF Vocabulary"
       }
     ],
@@ -106,18 +134,8 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@language": "en",
         "@value": "Silk Linked Data Integration Framework"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform005",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "OpenRefine"
       }
     ]
   },
@@ -128,6 +146,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@language": "en",
         "@value": "Microsoft Excel"
       }
     ]
@@ -139,18 +158,8 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@language": "en",
         "@value": "iMacros [Firefox plugin]"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.2#platform001",
-    "@type": [
-      "https://doi.org/10.6069/uwlib.55.b.1#Platform"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "SPARQL"
       }
     ]
   }

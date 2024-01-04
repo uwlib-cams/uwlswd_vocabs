@@ -1,31 +1,30 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix ldproc: <https://doi/org/10.6069/uwlib.55.b.2#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<https://doi.org/10.6069/uwlib.55.b.1#Platform> a rdfs:Class .
+<https://doi.org/10.6069/uwlib.55.b.1#Platform> a <http://www.w3.org/2000/01/rdf-schema#Class> .
 
 <https://doi.org/10.6069/uwlib.55.b.1> a void:Dataset ;
     dc:language "en" ;
-    dcterms:creator <http://viaf.org/viaf/139541794> ;
-    dcterms:description "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets." ;
-    dcterms:format <http://www.w3.org/ns/formats/Turtle> ;
-    dcterms:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html>,
+    dct:creator <http://viaf.org/viaf/139541794> ;
+    dct:description "RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets."@en ;
+    dct:format <http://www.w3.org/ns/formats/Turtle> ;
+    dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.html>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.nt>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.rdf> ;
-    dcterms:issued "2018" ;
-    dcterms:license <https://creativecommons.org/licenses/zero/1.0> ;
-    dcterms:publisher <http://viaf.org/viaf/139541794> ;
-    dcterms:title "Linked Data Platform Vocabulary" ;
+    dct:issued "2018" ;
+    dct:license <https://creativecommons.org/licenses/zero/1.0> ;
+    dct:publisher <http://viaf.org/viaf/139541794> ;
+    dct:title "Linked Data Platform Vocabulary"@en ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    ldproc:containsEntity rdfs:Class ;
-    schema:disambiguatingDescription "RDF Vocabulary" ;
-    schema:version "1-1-1" .
+    ldproc:containsEntity <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    schema:disambiguatingDescription "RDF Vocabulary"@en ;
+    schema:version "1-2-1" .
 
