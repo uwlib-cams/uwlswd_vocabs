@@ -12,8 +12,8 @@
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/>
     <dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:title>Linked Data Platforms</dcterms:title>
-    <dcterms:description>Platforms (or applications) used to process RDF datasets.</dcterms:description>
+    <dcterms:title xml:lang="en">Linked Data Platforms</dcterms:title>
+    <dcterms:description xml:lang="en">Platforms (or applications) used to process RDF datasets.</dcterms:description>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
@@ -28,30 +28,30 @@
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.nt"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.jsonld"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platforms/linked_data_platforms.html"/>
-    <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
+    <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform001">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>SPARQL</rdfs:label>
+    <rdfs:label xml:lang="en">SPARQL</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform005">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>OpenRefine</rdfs:label>
+    <rdfs:label xml:lang="en">OpenRefine</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform002">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Fuseki</rdfs:label>
+    <rdfs:label xml:lang="en">Fuseki</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform004">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>iMacros [Firefox plugin]</rdfs:label>
+    <rdfs:label xml:lang="en">iMacros [Firefox plugin]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform003">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Microsoft Excel</rdfs:label>
+    <rdfs:label xml:lang="en">Microsoft Excel</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.2#platform006">
     <rdf:type rdf:resource="https://doi.org/10.6069/uwlib.55.b.1#Platform"/>
-    <rdfs:label>Silk Linked Data Integration Framework</rdfs:label>
+    <rdfs:label xml:lang="en">Silk Linked Data Integration Framework</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

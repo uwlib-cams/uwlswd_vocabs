@@ -13,8 +13,7 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
     <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
     <rdfs:label xml:lang="en">Photographers Reference Number</rdfs:label>
-    <rdfs:comment xml:lang="en">University of Washington Libraries' reference number for a
-      photographer.</rdfs:comment>
+    <rdfs:comment xml:lang="en">University of Washington Libraries' reference number for a photographer.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.1#OrderNumber">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -29,7 +28,7 @@
     <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
     <dct:title xml:lang="en">University of Washington Libraries rdfs:Class Definitions</dct:title>
     <dct:description xml:lang="en">RDF dataset describing locally-defined classes used in University of Washington Libraries Semantic Web Data.</dct:description>
-    <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
+    <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
@@ -51,9 +50,7 @@
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.1"/>
     <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
     <rdfs:label xml:lang="en">Negative Number</rdfs:label>
-    <rdfs:comment xml:lang="en">Reproduction number assigned to an image for purposes of
-      duplication. It is a unique number in University of Washington Libraries Special
-      Collections.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Reproduction number assigned to an image for purposes of duplication. It is a unique number in University of Washington Libraries Special Collections.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nad3490c3cbb048109860378bb8a49db8">
     <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>

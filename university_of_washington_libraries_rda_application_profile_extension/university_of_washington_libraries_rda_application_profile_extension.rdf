@@ -13,7 +13,7 @@
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:title xml:lang="en">University of Washington Libraries RDA Application Profile Extension</dct:title>
     <dct:description xml:lang="en">Properties required to extend local RDA (Resource Description and Access) application profile. Extension required because RDA did not provide some elements/properties needed to fully describe our resources. Profile was written as part of the LD4P2 grant project in the interest of producing data entry forms in the Sinopia Linked Data Editor.</dct:description>
-    <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
+    <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
     <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</dct:issued>

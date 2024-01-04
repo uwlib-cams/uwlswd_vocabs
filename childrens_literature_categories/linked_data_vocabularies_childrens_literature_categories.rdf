@@ -10,20 +10,20 @@
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#history">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>History</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">History</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#spellingbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Spelling books</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Spelling books</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.3">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/>
     <dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:title>Linked Data Vocabularies: Children's Literature Categories</dcterms:title>
-    <dcterms:alternative>University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories</dcterms:alternative>
-    <dcterms:description>Categories for describing types of historical children's literature</dcterms:description>
-    <dcterms:description>RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html.</dcterms:description>
+    <dcterms:title xml:lang="en">Linked Data Vocabularies: Children's Literature Categories</dcterms:title>
+    <dcterms:alternative xml:lang="en">University of Washington Libraries Linked Data Vocabularies: Childrens Literature Categories</dcterms:alternative>
+    <dcterms:description xml:lang="en">Categories for describing types of historical children's literature</dcterms:description>
+    <dcterms:description xml:lang="en">RDF vocabulary derived from a thesaurus intended to provide terms for describing categories of historical children's literature. The thesaurus was constructed for use in describing the University of Washington Libraries' Historical Children's Literature Collection which can be seen at https://content.lib.washington.edu/childrensweb/index.html.</dcterms:description>
     <dcterms:issued>2018</dcterms:issued>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
@@ -39,146 +39,146 @@
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.nt"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.jsonld"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/childrens_literature_categories/linked_data_vocabularies_childrens_literature_categories.html"/>
-    <schema:disambiguatingDescription>SKOS Concept Scheme</schema:disambiguatingDescription>
+    <schema:disambiguatingDescription xml:lang="en">SKOS Concept Scheme</schema:disambiguatingDescription>
     <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#historicalandgeographicworks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Historical and geographic works</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Historical and geographic works</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#politicalworks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Political works</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Political works</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#tradesandoccupations">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Trades and Occupations</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Trades and Occupations</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nd83b5f527dc64470ad2110b0670479e9">
     <void:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moralinstruction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Moral instruction</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Moral instruction</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#nurseryrhymes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Nursery rhymes</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nursery rhymes</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#readers">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Readers</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Readers</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fables">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Fables</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fables</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#fairytales">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Fairytales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fairytales</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#discriminationandbigotry">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Discrimination and bigotry</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Discrimination and bigotry</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#biblesandreligiousworks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Bibles and religious works</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bibles and religious works</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#copybooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Copybooks</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Copybooks</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#geographyandtravel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Geography and travel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geography and travel</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#peterparley">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Peter Parley</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Peter Parley</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#mathematicsandarithmetic">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Mathematics and arithmetic</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mathematics and arithmetic</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#grammars">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Grammars</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Grammars</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#battledores">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Battledores</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Battledores</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#chapbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Chapbooks</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chapbooks</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#dictionaries">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Dictionaries</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dictionaries</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#textbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Textbooks</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Textbooks</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#encyclopedias">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Encyclopedias</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Encyclopedias</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#moneyandaccounting">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Money and accounting</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Money and accounting</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#socialetiquette">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Social etiquette</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Social etiquette</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#objectbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Object books</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Object books</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#primersinstructionalbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Primers (Instructional books)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Primers (Instructional books)</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#homeeconomicsanddomesticlife">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Home economics and domestic life</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Home economics and domestic life</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#hornbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Hornbooks</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hornbooks</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#alphabetbooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Alphabet books</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Alphabet books</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#healthandhygiene">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Health and hygiene</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Health and hygiene</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#elocutionandrhetoric">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Elocution and rhetoric</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Elocution and rhetoric</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#naturalsciences">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Natural sciences</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Natural sciences</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#cautionarytales">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Cautionary tales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cautionary tales</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#mannersandsocialetiquette">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Manners and social etiquette</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Manners and social etiquette</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#activitybooks">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Activity books</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Activity books</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.B.3#periodicals">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Periodicals</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Periodicals</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>

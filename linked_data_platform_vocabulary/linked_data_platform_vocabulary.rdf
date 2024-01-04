@@ -16,15 +16,15 @@
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.jsonld"/>
     <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/linked_data_platform_vocabulary/linked_data_platform_vocabulary.ttl"/>
     <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <dcterms:title>Linked Data Platform Vocabulary</dcterms:title>
-    <dcterms:description>RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets.</dcterms:description>
+    <dcterms:title xml:lang="en">Linked Data Platform Vocabulary</dcterms:title>
+    <dcterms:description xml:lang="en">RDFS vocabulary establishing classes and properties needed to describe platforms used to process RDF datasets. The word platforms represents applications, software, scripts, programs, etc. useful in processing the datasets.</dcterms:description>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-    <schema:disambiguatingDescription>RDF Vocabulary</schema:disambiguatingDescription>
+    <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
     <dcterms:issued>2018</dcterms:issued>
     <dc:language>en</dc:language>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/zero/1.0"/>
