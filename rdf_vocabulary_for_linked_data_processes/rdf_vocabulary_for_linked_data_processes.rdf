@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dct="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:schema="https://schema.org/"
@@ -37,27 +37,27 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.b.2">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-    <dcterms:creator rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:title xml:lang="en">RDF Vocabulary for Linked Data Processes</dcterms:title>
-    <dcterms:alternative xml:lang="en">Reconciliation Vocabulary</dcterms:alternative>
-    <dcterms:description xml:lang="en">Vocabulary for describing processes run on linked data datasets.</dcterms:description>
+    <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dct:title xml:lang="en">RDF Vocabulary for Linked Data Processes</dct:title>
+    <dct:alternative xml:lang="en">Reconciliation Vocabulary</dct:alternative>
+    <dct:description xml:lang="en">Vocabulary for describing processes run on linked data datasets.</dct:description>
     <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
-    <dcterms:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
-    <dcterms:issued>2018</dcterms:issued>
+    <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+    <dct:issued>2018</dct:issued>
     <dc:language>en</dc:language>
-    <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-    <dcterms:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh2013002090"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dct:subject rdf:resource="http://id.loc.gov/authorities/subjects/sh2013002090"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <void:classPartition rdf:nodeID="N6f242f3720a743a8a6f73ca361c742b3"/>
     <schema:version>1-8-0</schema:version>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.ttl"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.nt"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.jsonld"/>
-    <dcterms:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html"/>
-    <dcterms:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.ttl"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.nt"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.jsonld"/>
+    <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/rdf_vocabulary_for_linked_data_processes/rdf_vocabulary_for_linked_data_processes.html"/>
+    <dct:format rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N6f242f3720a743a8a6f73ca361c742b3">
     <void:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
