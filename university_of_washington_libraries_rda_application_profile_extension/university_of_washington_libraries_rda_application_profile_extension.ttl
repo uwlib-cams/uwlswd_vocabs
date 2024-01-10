@@ -21,7 +21,7 @@
     rdfs:domain <http://rdaregistry.info/Elements/c/C10003> ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.4> ;
     rdfs:range rdfs:Literal ;
-    skos:note "Need this for cataloging items for which we don’t use traditional call numbers, such as sound recordings and videos. No equivalent property found."@en .
+    skos:note "Need this for cataloging items for which we donâ€™t use traditional call numbers, such as sound recordings and videos. No equivalent property found."@en .
 
 <https://doi.org/10.6069/uwlib.55.d.4#hasContributorAgent> a rdf:Property ;
     rdfs:label "Has Contributor Agent"@en ;
@@ -31,7 +31,7 @@
 
 <https://doi.org/10.6069/uwlib.55.d.4#hasCreatorCharacteristic> a rdf:Property ;
     rdfs:label "Has Creator Characteristic"@en ;
-    rdfs:comment "A relationship between an RDA Work and a term identifying a characteristic of the Work’s creator."@en ;
+    rdfs:comment "A relationship between an RDA Work and a term identifying a characteristic of the Workâ€™s creator."@en ;
     rdfs:domain <http://rdaregistry.info/Elements/c/C10001> ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.4> ;
     skos:note "Values for this property should resemble values for the MARC 386 field. The domain and range of the BIBFRAME property created for this purpose was judged too restrictive."@en .
@@ -126,6 +126,6 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdf:Property ;
-    schema:disambiguatingDescription "RDF Vocabulary" ;
-    schema:version "1-4-0" .
+    schema:disambiguatingDescription "RDF Vocabulary"@en ;
+    schema:version "1-5-0" .
 

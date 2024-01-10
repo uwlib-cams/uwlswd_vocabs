@@ -7,7 +7,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> a rdf:Property ;
-    rdfs:label "Is Referenced in Digital Collection" ;
+    rdfs:label "Is Referenced in Digital Collection"@en ;
     rdfs:comment "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."@en ;
     rdfs:domain <http://www.europeana.eu/schemas/edm/Agent> ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.3> ;
@@ -15,9 +15,7 @@
     rdfs:subPropertyOf dct:isReferencedBy .
 
 <https://doi.org/10.6069/uwlib.55.d.3> a void:Dataset ;
-    dc:creator "University of Washington Libraries"@en ;
-    dc:language "en-US" ;
-    dc:publisher "University of Washington Libraries"@en ;
+    dc:language "en" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."@en ;
     dct:format <http://www.w3.org/ns/formats/Turtle> ;
@@ -35,6 +33,6 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdf:Property ;
-    schema:disambiguatingDescription "RDF Vocabulary" ;
-    schema:version "1-2-1" .
+    schema:disambiguatingDescription "RDF Vocabulary"@en ;
+    schema:version "1-4-1" .
 

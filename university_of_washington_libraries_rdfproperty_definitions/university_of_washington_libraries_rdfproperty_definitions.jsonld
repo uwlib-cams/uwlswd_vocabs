@@ -1,24 +1,50 @@
 [
   {
+    "@id": "https://doi.org/10.6069/uwlib.55.d.3#inDigiColl",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.europeana.eu/schemas/edm/Agent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://doi.org/10.6069/uwlib.55.d.3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Is Referenced in Digital Collection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://purl.org/dc/dcmitype/Collection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://purl.org/dc/terms/isReferencedBy"
+      }
+    ]
+  },
+  {
     "@id": "https://doi.org/10.6069/uwlib.55.d.3",
     "@type": [
       "http://rdfs.org/ns/void#Dataset"
     ],
-    "http://purl.org/dc/elements/1.1/creator": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
-      }
-    ],
     "http://purl.org/dc/elements/1.1/language": [
       {
-        "@value": "en-US"
-      }
-    ],
-    "http://purl.org/dc/elements/1.1/publisher": [
-      {
-        "@language": "en",
-        "@value": "University of Washington Libraries"
+        "@value": "en"
       }
     ],
     "http://purl.org/dc/terms/creator": [
@@ -74,7 +100,7 @@
     ],
     "http://rdfs.org/ns/void#classPartition": [
       {
-        "@id": "_:N186791efc7d147d7b384fd76add8107d"
+        "@id": "_:Na69f7cfabb0242c5802d72820127f641"
       }
     ],
     "http://rdfs.org/ns/void#feature": [
@@ -98,57 +124,21 @@
     ],
     "https://schema.org/disambiguatingDescription": [
       {
+        "@language": "en",
         "@value": "RDF Vocabulary"
       }
     ],
     "https://schema.org/version": [
       {
-        "@value": "1-2-1"
+        "@value": "1-4-1"
       }
     ]
   },
   {
-    "@id": "_:N186791efc7d147d7b384fd76add8107d",
+    "@id": "_:Na69f7cfabb0242c5802d72820127f641",
     "http://rdfs.org/ns/void#class": [
       {
         "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  },
-  {
-    "@id": "https://doi.org/10.6069/uwlib.55.d.3#inDigiColl",
-    "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "@id": "http://www.europeana.eu/schemas/edm/Agent"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://doi.org/10.6069/uwlib.55.d.3"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Is Referenced in Digital Collection"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "@id": "http://purl.org/dc/dcmitype/Collection"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://purl.org/dc/terms/isReferencedBy"
       }
     ]
   }

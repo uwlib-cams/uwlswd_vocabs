@@ -7,32 +7,26 @@
 
 <https://doi.org/10.6069/uwlib.55.d.1#NegativeNumber> a rdfs:Class ;
     rdfs:label "Negative Number"@en ;
-    rdfs:comment """Reproduction number assigned to an image for purposes of
-      duplication. It is a unique number in University of Washington Libraries Special
-      Collections."""@en ;
+    rdfs:comment "Reproduction number assigned to an image for purposes of duplication. It is a unique number in University of Washington Libraries Special Collections."@en ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.1> ;
     rdfs:subClassOf <http://id.loc.gov/ontologies/bibframe/Identifier> .
 
 <https://doi.org/10.6069/uwlib.55.d.1#OrderNumber> a rdfs:Class ;
     rdfs:label "Order Number"@en ;
-    rdfs:comment """Number used to order a copy of a digital resource from the
-      University of Washington Libraries."""@en ;
+    rdfs:comment "Number used to order a copy of a digital resource from the University of Washington Libraries."@en ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.1> ;
     rdfs:subClassOf <http://id.loc.gov/ontologies/bibframe/Identifier> .
 
 <https://doi.org/10.6069/uwlib.55.d.1#PhotographersReferenceNumber> a rdfs:Class ;
     rdfs:label "Photographers Reference Number"@en ;
-    rdfs:comment """University of Washington Libraries' reference number for a
-      photographer."""@en ;
+    rdfs:comment "University of Washington Libraries' reference number for a photographer."@en ;
     rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.1> ;
     rdfs:subClassOf <http://id.loc.gov/ontologies/bibframe/Identifier> .
 
 <https://doi.org/10.6069/uwlib.55.d.1> a void:Dataset ;
-    dc:creator "University of Washington Libraries"@en ;
-    dc:language "en-US" ;
-    dc:publisher "University of Washington Libraries"@en ;
+    dc:language "en" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
-    dct:description "RDF dataset describing classes used in University of Washington Libraries RDF data."@en ;
+    dct:description "RDF dataset describing locally-defined classes used in University of Washington Libraries Semantic Web Data."@en ;
     dct:format <http://www.w3.org/ns/formats/Turtle> ;
     dct:hasFormat <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.html>,
         <https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfsclass_definitions/university_of_washington_libraries_rdfsclass_definitions.jsonld>,
@@ -48,6 +42,6 @@
         <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdfs:Class ;
-    schema:disambiguatingDescription "RDF Vocabulary" ;
-    schema:version "1-2-2" .
+    schema:disambiguatingDescription "RDF Vocabulary"@en ;
+    schema:version "1-4-2" .
 
