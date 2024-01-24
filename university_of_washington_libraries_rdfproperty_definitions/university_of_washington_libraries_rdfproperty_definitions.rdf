@@ -6,7 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:schema="https://schema.org/"
-   xmlns:void="http://rdfs.org/ns/void#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
@@ -15,16 +15,11 @@
     <dct:description xml:lang="en">RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data.</dct:description>
     <schema:disambiguatingDescription xml:lang="en">RDF Vocabulary</schema:disambiguatingDescription>
     <dct:title xml:lang="en">University of Washington Libraries rdf:Property Definitions</dct:title>
-    <void:classPartition rdf:nodeID="Na69f7cfabb0242c5802d72820127f641"/>
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDFa"/>
-    <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
     <ldproc:containsEntity rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <dct:issued>2018</dct:issued>
     <dc:language>en</dc:language>
     <dct:license rdf:resource="https://creativecommons.org/licenses/zero/1.0/"/>
-    <schema:version>1-4-1</schema:version>
+    <schema:version>1-5-1</schema:version>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.ttl"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.nt"/>
     <dct:hasFormat rdf:resource="https://uwlib-cams.github.io/uwlswd_vocabs/university_of_washington_libraries_rdfproperty_definitions/university_of_washington_libraries_rdfproperty_definitions.jsonld"/>
@@ -40,7 +35,11 @@
     <rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na69f7cfabb0242c5802d72820127f641">
-    <void:class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#appliesToMaterial">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment xml:lang="en">Relates a term in a vocabulary encoding scheme to a term for a type of material in another vocabulary encoding scheme.</rdfs:comment>
+    <skos:historyNote xml:lang="en">Originally intended for use in SKOS concept schemes derived from MARC 21 006/007/008 fields; specifically, when a concept applies to more than one, but not all, the material types enumerated in the MARC 21 fixed-length data elements and fixed fields.</skos:historyNote>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
+    <rdfs:label xml:lang="en">applies to material</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
