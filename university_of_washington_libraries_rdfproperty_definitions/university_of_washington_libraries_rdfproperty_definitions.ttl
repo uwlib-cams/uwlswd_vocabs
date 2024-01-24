@@ -4,7 +4,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://doi.org/10.6069/uwlib.55.d.3#appliesToMaterial> a rdf:Property ;
+    rdfs:label "applies to material"@en ;
+    rdfs:comment "Relates a term in a vocabulary encoding scheme to a term for a type of material in another vocabulary encoding scheme."@en ;
+    rdfs:isDefinedBy <https://doi.org/10.6069/uwlib.55.d.3> ;
+    skos:historyNote "Originally intended for use in SKOS concept schemes derived from MARC 21 006/007/008 fields; specifically, when a concept applies to more than one, but not all, the material types enumerated in the MARC 21 fixed-length data elements and fixed fields."@en .
 
 <https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> a rdf:Property ;
     rdfs:label "Is Referenced in Digital Collection"@en ;
@@ -14,7 +20,7 @@
     rdfs:range <http://purl.org/dc/dcmitype/Collection> ;
     rdfs:subPropertyOf dct:isReferencedBy .
 
-<https://doi.org/10.6069/uwlib.55.d.3> a void:Dataset ;
+<https://doi.org/10.6069/uwlib.55.d.3> a <http://rdfs.org/ns/void#Dataset> ;
     dc:language "en" ;
     dct:creator <http://viaf.org/viaf/139541794> ;
     dct:description "RDF dataset describing locally-minted properties used in University of Washington Libraries RDF data."@en ;
@@ -27,12 +33,7 @@
     dct:license <https://creativecommons.org/licenses/zero/1.0/> ;
     dct:publisher <http://viaf.org/viaf/139541794> ;
     dct:title "University of Washington Libraries rdf:Property Definitions"@en ;
-    void:classPartition [ void:class rdf:Property ] ;
-    void:feature <http://www.w3.org/ns/formats/N-Triples>,
-        <http://www.w3.org/ns/formats/RDF_XML>,
-        <http://www.w3.org/ns/formats/RDFa>,
-        <http://www.w3.org/ns/formats/Turtle> ;
     ldproc:containsEntity rdf:Property ;
     schema:disambiguatingDescription "RDF Vocabulary"@en ;
-    schema:version "1-4-1" .
+    schema:version "1-5-1" .
 
