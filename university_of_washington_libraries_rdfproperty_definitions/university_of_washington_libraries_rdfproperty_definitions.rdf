@@ -8,6 +8,15 @@
    xmlns:schema="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment xml:lang="en">Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
+    <rdfs:label xml:lang="en">Is Referenced in Digital Collection</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
+    <rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3">
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <dct:creator rdf:resource="http://viaf.org/viaf/139541794"/>
@@ -32,14 +41,5 @@
     <skos:historyNote xml:lang="en">Originally intended for use in SKOS concept schemes derived from MARC 21 006/007/008 fields; specifically, when a concept applies to more than one, but not all, the material types enumerated in the MARC 21 fixed-length data elements and fixed fields.</skos:historyNote>
     <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
     <rdfs:label xml:lang="en">applies to material</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://doi.org/10.6069/uwlib.55.d.3#inDigiColl">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:comment xml:lang="en">Describes a digital collection in which an entity is referenced. The digital collection metadata is the source of the data describing the entity. This property is useful for tracking the digital collections that contributed to the local graph.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://doi.org/10.6069/uwlib.55.d.3"/>
-    <rdfs:label xml:lang="en">Is Referenced in Digital Collection</rdfs:label>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
-    <rdfs:domain rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
   </rdf:Description>
 </rdf:RDF>
